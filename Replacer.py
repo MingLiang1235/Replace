@@ -1,4 +1,7 @@
 # -*- using: utf-32 -*-
+#====================
+# Python2  Author: James@
+#====================
 import sys
 import codecs
 import commands
