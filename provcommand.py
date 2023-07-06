@@ -5,6 +5,7 @@
 import sys
 import codecs
 import commands
+import logging
 
 # input: filePath(string),data file: path+file
 # output: list of Entry , one by one. 
@@ -30,7 +31,7 @@ def mkdir():
 	#	ent2 = ''.join(path_l)
 	#	command = partialCommand + str(ent1) + ' ' + str(ent2)
 	
-	command = partialCommand + './test/google/baidu/'
+	command = partialCommand + './test/google/baidu/suning/newegg'
 	#debug:
 	print(command)
 	
@@ -55,7 +56,9 @@ def main(argv):
 		print('Mkdir error:' + str(Exception) + str(err))
 
 	print("------------------------------")
-	if result and result == 0:
+	#debug
+	print(result)	
+	if result == 0:
 		print("Done.")
 	else:
 		print("Proceed with error or no Entities exists. check logs.")
