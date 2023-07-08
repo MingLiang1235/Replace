@@ -70,12 +70,12 @@ def main(argv):
 	except Exception, err:
 		print('Make path error:' + str(Exception) + str(err))
 		
-	result = 1
 	entities = []
 	try:
 		entities = readEntries(filePath)
 	except Exception, err:
 		print('Reading file error:' + str(Exception) + str(err))
+	result = 1
 	if len(entities) > 0:
 		try:
 			result = replaceThem(entities, notTest)
@@ -86,7 +86,9 @@ def main(argv):
 	print("------------------------------")
 	if result == 0:
 		print("Done.")
+		return 0
 	else:
 		print("Proceed with error, check logs.")
+		return -1
 
 if __name__ == '__main__' : main(sys.argv)
