@@ -5,6 +5,7 @@
 import sys
 import codecs
 import commands
+import traceback
 
 # input: filePath(string),data file: path+file
 # output: list of Entry , one by one. 
@@ -45,26 +46,26 @@ def replaceThem(ls, notTest):
 				return 0
 			else:
 				return -1
+	return 0
 
 #Copy only try twice. The second try with mkdir.
 #input: copy command.
 #output: 0:Succeed; -1:fail;
 #====================
-def tryTwiceCopy(command):
+def tryTwiceCopy(command, dest):
 	try:
 		(cp_status, cp_output) = cpFile(command)
 	except Exception, err:
 		print('Try copy once error: ' + str(Exception) + str(err))
 		return -1
 	if cp_status != 0:
-		print('Cp error: ', cp_output)
+		print('Cp error: ', str(cp_output))
 		
 		# ~~Try mkdir:~~
-
-		mkdir = -2
 		
+		mkdir = -2	
 		try:
-			mkdir = createDirectory(cp_output, ent2)
+			mkdir = createDirectory(cp_output, dest)
 		except Exception, err:
 			print('Create dirctory error: ' + str(Exception) + str(err))
 			
@@ -77,13 +78,13 @@ def tryTwiceCopy(command):
 				print('Try copy twice error: ' + str(Exception) + str(err))
 				return -1
 			if cp_status2 != 0:
-				print('Cp twice error: ", cp_output2)
+				print('Cp twice error: ', str(cp_output2))
 			else:
-				print('File created by mkdir: ', cp_output2)
+				print('File created by mkdir: ', str(cp_output2))
 				return 0
 
 		else:  # mkdir == -2
-			print(In mkdir of replaceThem error, check log.)
+			print('In mkdir of replaceThem error, check log.')
 			return -1 
 	else:
 		print('File created: ', cp_output)
@@ -94,26 +95,28 @@ def tryTwiceCopy(command):
 #====================
 def cpFile(command):
 	(result_status, result_output) = commands.getstatusoutput(command)
-		if result_status != 0:
-			print('Cp error: ', result_output)
-			return (-1, result_output)	
-		else:
-			print('File created: ', result_output)
-			return (0, "")
+	if result_status != 0:
+		print('Cp error: ', result_output)
+		return (-1, str(result_output))	
+	else:
+		print('File created: ', result_output)
+		return (0, "")
 
 #====================
 def createDirectory(cp_output, ent2):
-	if true and ent
-	(rsl_status, rsl_output) = commands.getstatusoutput('mkdir -pv ' + str(ent2))
-	if rsl_status != 0:
-		print('Mkdir error: ', rsl_status)
-		return -1
-	else:
-		print('Direcoty created: ', rsl_output)
-		return 0
+	if true and ent2:
+		(rsl_status, rsl_output) = commands.getstatusoutput('mkdir -pv ' + str(ent2))
+		if rsl_status != 0:
+			print('Mkdir error: ', str(rsl_output))
+			return -1
+		else:
+			print('Direcoty created: ', str(rsl_output))
+			return 0
 
 #====================
 def main(argv):
+	#debug:
+	print('Len(argv)=' + str(len(argv)) + '; argv[0]=' + argv[0])
 	if len(argv) < 3:
 		if len(argv) == 1 :
 			print("Lack arguments. Not run. Notice: Place the data-file in /home/cuibe/work/replace/, and invoke it explicitly.")
@@ -154,6 +157,7 @@ def main(argv):
 			result = replaceThem(entities, notTest)
 		except Exception, err:
 			print('Replacing error: ' + str(Exception) + str(err))
+			traceback.print_exc()
 	else:
 		print("No file to copy, check your source-data file.")
 	print("------------------------------")
