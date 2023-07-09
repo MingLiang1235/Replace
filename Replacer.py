@@ -1,7 +1,9 @@
 #!/usr/bin/python2
 #====================
 # Python2  Author: James@
+# NOTICE : Must run in root !
 #====================
+import os
 import sys
 import codecs
 import commands
@@ -20,7 +22,7 @@ def readEntries(filePath):
 	
 	#debug:
 	print("Entities: " + str(len(ls)))
-	#print(ls)
+	print(ls)
 	
 	return ls
 
@@ -31,11 +33,19 @@ def replaceThem(ls, notTest):
 	partialCommand = 'cp -r '  # -y maybe?
 	for ent in ls:
 		ent1 = ent.strip()
+		end_ls = ent1
 		path_l = ent.strip().split('/')
+		
 		#debug:
-		print('path_l:', path_l)
-		path_l = path_l[4:]  # filter /mnt/16orig.
+		#print('path_l:', path_l)
+		
+		path_l = path_l[4:]  # filter /mnt/16orig/sdb2.
+		
+		if (os.path.isfile(end_ls)):
+			path_l = path_l[:-1]  # filter end file of path.
+		
 		ent2 = '/' + '/'.join(path_l)  # add first '/'.
+
 		command = partialCommand + str(ent1) + ' ' + str(ent2)
 		
 		#debug:
@@ -43,11 +53,12 @@ def replaceThem(ls, notTest):
 
 		if notTest:
 			copy_results = -1
-			copy_result = tryTwiceCopy(command)
+			copy_result = tryTwiceCopy(command, str(ent2))
 			if copy_result == 0:
-				return 0
+				continue			 
 			else:
-				return -1
+				print('tryTwice return ' + str(copy_result))
+				continue
 	return 0
 
 #Copy only try twice. The second try with mkdir.
@@ -98,15 +109,15 @@ def tryTwiceCopy(command, dest):
 def cpFile(command):
 	(result_status, result_output) = commands.getstatusoutput(command)
 	if result_status != 0:
-		print('Cp error: ', result_output)
+		print('In cpFile, cp error: ', result_output)
 		return (-1, str(result_output))	
 	else:
-		print('File created: ', result_output)
+		print('File created by cpFile: ', result_output)
 		return (0, "")
 
 #====================
 def createDirectory(cp_output, ent2):
-	if true and ent2:
+	if True and ent2:
 		(rsl_status, rsl_output) = commands.getstatusoutput('mkdir -pv ' + str(ent2))
 		if rsl_status != 0:
 			print('Mkdir error: ', str(rsl_output))
