@@ -44,7 +44,7 @@ class BasicsTestCase(unittest.TestCase):
 		self.assertTrue(os.path.isfile('/replace/test/testCp/abc/1/qsl/a2.txt'))
 		self.assertTrue(os.path.exists('/replace/test/testCp/abc/1/qsl'))
 		self.assertTrue(os.path.isdir('/replace/test/testDir/abc/123/qsl'))
-		print('testTwiceCopy ... Succeed!')		
+		print('testReplaceThem ... Succeed!')		
 
 if __name__ == '__main__':
 	print("=======================================")
