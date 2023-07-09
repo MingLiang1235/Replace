@@ -30,7 +30,7 @@ def readEntries(filePath):
 # output:  Running result.
 #====================
 def replaceThem(ls, notTest):
-	partialCommand = 'cp -r '  # -y maybe? -P preserve origin path .
+	partialCommand = 'cp -r --preserve '  # -y maybe? -p --preserve origin path .
 	for ent in ls:
 		ent1 = ent.strip()
 		end_ls = ent1
