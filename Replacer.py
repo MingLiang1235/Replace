@@ -32,8 +32,10 @@ def replaceThem(ls, notTest):
 	for ent in ls:
 		ent1 = ent.strip()
 		path_l = ent.strip().split('/')
-		path_l = path_l[2:]  # filter /mnt/16orig the length is 10.
-		ent2 = ''.join(path_l)
+		#debug:
+		print('path_l:', path_l)
+		path_l = path_l[4:]  # filter /mnt/16orig.
+		ent2 = '/' + '/'.join(path_l)  # add first '/'.
 		command = partialCommand + str(ent1) + ' ' + str(ent2)
 		
 		#debug:
