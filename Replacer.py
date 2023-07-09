@@ -30,7 +30,7 @@ def readEntries(filePath):
 # output:  Running result.
 #====================
 def replaceThem(ls, notTest):
-	partialCommand = 'cp -r '  # -y maybe?
+	partialCommand = 'cp -r '  # -y maybe? -P preserve origin path .
 	for ent in ls:
 		ent1 = ent.strip()
 		end_ls = ent1
@@ -43,6 +43,8 @@ def replaceThem(ls, notTest):
 		
 		if (os.path.isfile(end_ls)):
 			path_l = path_l[:-1]  # filter end file of path.
+		elif (os.path.isdir(end_ls)):
+			path_l = path_l[:-1]  # filter end dir due to /a/b/c/ -> cp -> /a/b/
 		
 		ent2 = '/' + '/'.join(path_l)  # add first '/'.
 
