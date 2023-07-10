@@ -1,0 +1,10 @@
+/mnt/16orig/sdb2/usr/share/doc/libonig2
+/mnt/16orig/sdb2/usr/lib/arm-linux-gnueabihf/libonig.so.2
+/mnt/16orig/sdb2/usr/lib/arm-linux-gnueabihf/libonig.so.2.0.1
+/mnt/16orig/sdb2/var/cache/apt/archives/libonig2_5.9.5-3.2+deb8u4_armhf.deb
+/mnt/16orig/sdb2/var/lib/dpkg/info/libonig2:armhf.shlibs
+/mnt/16orig/sdb2/var/lib/dpkg/info/libonig2:armhf.symbols
+/mnt/16orig/sdb2/var/lib/dpkg/info/libonig2:armhf.postinst
+/mnt/16orig/sdb2/var/lib/dpkg/info/libonig2:armhf.list
+/mnt/16orig/sdb2/var/lib/dpkg/info/libonig2:armhf.postrm
+/mnt/16orig/sdb2/var/lib/dpkg/info/libonig2:armhf.md5sums

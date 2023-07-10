@@ -41,10 +41,7 @@ def replaceThem(ls, notTest):
 		
 		path_l = path_l[4:]  # filter /mnt/16orig/sdb2.
 		
-		if (os.path.isfile(end_ls)):
-			path_l = path_l[:-1]  # filter end file of path.
-		elif (os.path.isdir(end_ls)):
-			path_l = path_l[:-1]  # filter end dir due to /a/b/c/ -> cp -> /a/b/
+		path_l = path_l[:-1]  # filter end dir due to /a/b/c/ -> cp -> /a/b/ || /a/b/c.txt -> /a/b/
 		
 		ent2 = '/' + '/'.join(path_l)  # add first '/'.
 
@@ -54,13 +51,13 @@ def replaceThem(ls, notTest):
 		print(command)
 
 		if notTest:
-			copy_results = -1
+			
 			copy_result = tryTwiceCopy(command, str(ent2))
 			if copy_result == 0:
-				continue			 
+				print('replaceThem ok.')			 
 			else:
-				print('tryTwice return ' + str(copy_result))
-				continue
+				print('replaceThem error, return ' + str(copy_result))
+				
 	return 0
 
 #Copy only try twice. The second try with mkdir.
@@ -99,7 +96,7 @@ def tryTwiceCopy(command, dest):
 				return 0
 
 		else:  # mkdir == -2
-			print('In mkdir of replaceThem error, check log.')
+			print('In mkdir of tryTwiceCopy error, check log.')
 			return -1 
 	else:
 		print('File created: ', cp_output)

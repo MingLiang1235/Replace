@@ -1,0 +1,51 @@
+Len(argv)=3; argv[0]=Replacer.py
+/home/cubie/work/replace/libaio.txt
+['Replacer.py', '--exec', 'libaio.txt']
+Entities: 11
+['/mnt/16orig/sdb2/usr/share/doc/libaio1\n', '/mnt/16orig/sdb2/usr/share/lintian/overrides/libaio1\n', '/mnt/16orig/sdb2/var/cache/apt/archives/libaio1_0.3.110-1_armhf.deb\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libaio1:armhf.postinst\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libaio1:armhf.shlibs\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libaio1:armhf.symbols\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libaio1:armhf.list\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libaio1:armhf.md5sums\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libaio1:armhf.postrm\n', '/mnt/16orig/sdb2/lib/arm-linux-gnueabihf/libaio.so.1.0.1\n', '/mnt/16orig/sdb2/lib/arm-linux-gnueabihf/libaio.so.1\n']
+cp -r --preserve /mnt/16orig/sdb2/usr/share/doc/libaio1 /usr/share/doc
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/usr/share/lintian/overrides/libaio1 /usr/share/lintian/overrides
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/var/cache/apt/archives/libaio1_0.3.110-1_armhf.deb /var/cache/apt/archives
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libaio1:armhf.postinst /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libaio1:armhf.shlibs /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libaio1:armhf.symbols /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libaio1:armhf.list /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libaio1:armhf.md5sums /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libaio1:armhf.postrm /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/lib/arm-linux-gnueabihf/libaio.so.1.0.1 /lib/arm-linux-gnueabihf
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/lib/arm-linux-gnueabihf/libaio.so.1 /lib/arm-linux-gnueabihf
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+------------------------------
+Done.

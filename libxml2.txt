@@ -1,0 +1,11 @@
+/mnt/16orig/sdb2/usr/share/doc/libxml2
+/mnt/16orig/sdb2/usr/share/lintian/overrides/libxml2
+/mnt/16orig/sdb2/usr/lib/arm-linux-gnueabihf/libxml2.so.2
+/mnt/16orig/sdb2/usr/lib/arm-linux-gnueabihf/libxml2.so.2.9.1
+/mnt/16orig/sdb2/var/cache/apt/archives/libxml2_2.9.1+dfsg1-5+deb8u8_armhf.deb
+/mnt/16orig/sdb2/var/lib/dpkg/info/libxml2:armhf.postrm
+/mnt/16orig/sdb2/var/lib/dpkg/info/libxml2:armhf.postinst
+/mnt/16orig/sdb2/var/lib/dpkg/info/libxml2:armhf.symbols
+/mnt/16orig/sdb2/var/lib/dpkg/info/libxml2:armhf.md5sums
+/mnt/16orig/sdb2/var/lib/dpkg/info/libxml2:armhf.shlibs
+/mnt/16orig/sdb2/var/lib/dpkg/info/libxml2:armhf.list

@@ -1,0 +1,47 @@
+Len(argv)=3; argv[0]=Replacer.py
+/home/cubie/work/replace/libqdbm.txt
+['Replacer.py', '--exec', 'libqdbm.txt']
+Entities: 10
+['/mnt/16orig/sdb2/usr/share/doc/libqdbm14\n', '/mnt/16orig/sdb2/usr/lib/libqdbm.so.14.14.0\n', '/mnt/16orig/sdb2/usr/lib/libqdbm.so.14\n', '/mnt/16orig/sdb2/var/cache/apt/archives/libqdbm14_1.8.78-5+b1_armhf.deb\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libqdbm14.shlibs\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libqdbm14.postinst\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libqdbm14.postrm\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libqdbm14.symbols\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libqdbm14.list\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libqdbm14.md5sums\n']
+cp -r --preserve /mnt/16orig/sdb2/usr/share/doc/libqdbm14 /usr/share/doc
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/usr/lib/libqdbm.so.14.14.0 /usr/lib
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/usr/lib/libqdbm.so.14 /usr/lib
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/var/cache/apt/archives/libqdbm14_1.8.78-5+b1_armhf.deb /var/cache/apt/archives
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libqdbm14.shlibs /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libqdbm14.postinst /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libqdbm14.postrm /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libqdbm14.symbols /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libqdbm14.list /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libqdbm14.md5sums /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+------------------------------
+Done.

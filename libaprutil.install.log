@@ -1,0 +1,61 @@
+Len(argv)=3; argv[0]=Replacer.py
+/home/cubie/work/replace/libaprutil.txt
+['Replacer.py', '--exec', 'libaprutil.txt']
+Entities: 18
+['/mnt/16orig/sdb2/usr/share/doc/libaprutil1\n', '/mnt/16orig/sdb2/usr/share/doc/libaprutil1-dbd-sqlite3\n', '/mnt/16orig/sdb2/usr/share/doc/libaprutil1-ldap\n', '/mnt/16orig/sdb2/usr/share/lintian/overrides/libaprutil1\n', '/mnt/16orig/sdb2/usr/lib/arm-linux-gnueabihf/libaprutil-1.so.0\n', '/mnt/16orig/sdb2/usr/lib/arm-linux-gnueabihf/libaprutil-1.so.0.5.4\n', '/mnt/16orig/sdb2/var/cache/apt/archives/libaprutil1-ldap_1.5.4-3_armhf.deb\n', '/mnt/16orig/sdb2/var/cache/apt/archives/libaprutil1_1.5.4-3_armhf.deb\n', '/mnt/16orig/sdb2/var/cache/apt/archives/libaprutil1-dbd-sqlite3_1.5.4-3_armhf.deb\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1:armhf.list\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1:armhf.md5sums\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1-ldap:armhf.md5sums\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1:armhf.shlibs\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1:armhf.symbols\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1-ldap:armhf.list\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1:armhf.triggers\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1-dbd-sqlite3:armhf.list\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1-dbd-sqlite3:armhf.md5sums\n']
+cp -r --preserve /mnt/16orig/sdb2/usr/share/doc/libaprutil1 /usr/share/doc
+('File created by cpFile: ', '')
+('File created: ', '')
+cp -r --preserve /mnt/16orig/sdb2/usr/share/doc/libaprutil1-dbd-sqlite3 /usr/share/doc
+('File created by cpFile: ', '')
+('File created: ', '')
+cp -r --preserve /mnt/16orig/sdb2/usr/share/doc/libaprutil1-ldap /usr/share/doc
+('File created by cpFile: ', '')
+('File created: ', '')
+cp -r --preserve /mnt/16orig/sdb2/usr/share/lintian/overrides/libaprutil1 /usr/share/lintian/overrides
+('File created by cpFile: ', '')
+('File created: ', '')
+cp -r --preserve /mnt/16orig/sdb2/usr/lib/arm-linux-gnueabihf/libaprutil-1.so.0 /usr/lib/arm-linux-gnueabihf
+('File created by cpFile: ', '')
+('File created: ', '')
+cp -r --preserve /mnt/16orig/sdb2/usr/lib/arm-linux-gnueabihf/libaprutil-1.so.0.5.4 /usr/lib/arm-linux-gnueabihf
+('File created by cpFile: ', '')
+('File created: ', '')
+cp -r --preserve /mnt/16orig/sdb2/var/cache/apt/archives/libaprutil1-ldap_1.5.4-3_armhf.deb /var/cache/apt/archives
+('File created by cpFile: ', '')
+('File created: ', '')
+cp -r --preserve /mnt/16orig/sdb2/var/cache/apt/archives/libaprutil1_1.5.4-3_armhf.deb /var/cache/apt/archives
+('File created by cpFile: ', '')
+('File created: ', '')
+cp -r --preserve /mnt/16orig/sdb2/var/cache/apt/archives/libaprutil1-dbd-sqlite3_1.5.4-3_armhf.deb /var/cache/apt/archives
+('File created by cpFile: ', '')
+('File created: ', '')
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1:armhf.list /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1:armhf.md5sums /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1-ldap:armhf.md5sums /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1:armhf.shlibs /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1:armhf.symbols /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1-ldap:armhf.list /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1:armhf.triggers /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1-dbd-sqlite3:armhf.list /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1-dbd-sqlite3:armhf.md5sums /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+------------------------------
+Done.

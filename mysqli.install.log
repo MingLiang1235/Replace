@@ -1,0 +1,43 @@
+Len(argv)=3; argv[0]=Replacer.py
+/home/cubie/work/replace/mysqli.txt
+['Replacer.py', '--exec', 'mysqli.txt']
+Entities: 9
+['/mnt/16orig/sdb2/etc/php5/mods-available/mysqli.ini\n', '/mnt/16orig/sdb2/usr/share/man/man1/mysqlimport.1.gz\n', '/mnt/16orig/sdb2/usr/share/php5/mysql/mysqli.ini\n', '/mnt/16orig/sdb2/usr/lib/php5/20131226/mysqli.so\n', '/mnt/16orig/sdb2/usr/bin/mysqlimport\n', '/mnt/16orig/sdb2/var/lib/php5/modules/registry/mysqli\n', '/mnt/16orig/sdb2/var/lib/php5/modules/apache2/enabled_by_maint/mysqli\n', '/mnt/16orig/sdb2/var/lib/php5/modules/cli/enabled_by_maint/mysqli\n', '/mnt/16orig/sdb2/var/lib/php5/modules/fpm/enabled_by_maint/mysqli\n']
+cp -r --preserve /mnt/16orig/sdb2/etc/php5/mods-available/mysqli.ini /etc/php5/mods-available
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/usr/share/man/man1/mysqlimport.1.gz /usr/share/man/man1
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/usr/share/php5/mysql/mysqli.ini /usr/share/php5/mysql
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/usr/lib/php5/20131226/mysqli.so /usr/lib/php5/20131226
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/usr/bin/mysqlimport /usr/bin
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/var/lib/php5/modules/registry/mysqli /var/lib/php5/modules/registry
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/var/lib/php5/modules/apache2/enabled_by_maint/mysqli /var/lib/php5/modules/apache2/enabled_by_maint
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/var/lib/php5/modules/cli/enabled_by_maint/mysqli /var/lib/php5/modules/cli/enabled_by_maint
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve /mnt/16orig/sdb2/var/lib/php5/modules/fpm/enabled_by_maint/mysqli /var/lib/php5/modules/fpm/enabled_by_maint
+('File created by cpFile: ', '')
+('File created: ', '')
+replaceThem ok.
+------------------------------
+Done.

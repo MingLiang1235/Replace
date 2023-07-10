@@ -1,0 +1,47 @@
+Len(argv)=3; argv[0]=Replacer.py
+/home/cubie/work/replace/libonig.txt
+['Replacer.py', '--exec', 'libonig.txt']
+Entities: 10
+['/mnt/16orig/sdb2/usr/share/doc/libonig2\n', '/mnt/16orig/sdb2/usr/lib/arm-linux-gnueabihf/libonig.so.2\n', '/mnt/16orig/sdb2/usr/lib/arm-linux-gnueabihf/libonig.so.2.0.1\n', '/mnt/16orig/sdb2/var/cache/apt/archives/libonig2_5.9.5-3.2+deb8u4_armhf.deb\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libonig2:armhf.shlibs\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libonig2:armhf.symbols\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libonig2:armhf.postinst\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libonig2:armhf.list\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libonig2:armhf.postrm\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libonig2:armhf.md5sums\n']
+cp -r --preserve /mnt/16orig/sdb2/usr/share/doc/libonig2 /usr/share/doc
+('File created by cpFile: ', '')
+('File created: ', '')
+tryTwice ok.
+cp -r --preserve /mnt/16orig/sdb2/usr/lib/arm-linux-gnueabihf/libonig.so.2 /usr/lib/arm-linux-gnueabihf
+('File created by cpFile: ', '')
+('File created: ', '')
+tryTwice ok.
+cp -r --preserve /mnt/16orig/sdb2/usr/lib/arm-linux-gnueabihf/libonig.so.2.0.1 /usr/lib/arm-linux-gnueabihf
+('File created by cpFile: ', '')
+('File created: ', '')
+tryTwice ok.
+cp -r --preserve /mnt/16orig/sdb2/var/cache/apt/archives/libonig2_5.9.5-3.2+deb8u4_armhf.deb /var/cache/apt/archives
+('File created by cpFile: ', '')
+('File created: ', '')
+tryTwice ok.
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libonig2:armhf.shlibs /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+tryTwice ok.
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libonig2:armhf.symbols /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+tryTwice ok.
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libonig2:armhf.postinst /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+tryTwice ok.
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libonig2:armhf.list /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+tryTwice ok.
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libonig2:armhf.postrm /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+tryTwice ok.
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libonig2:armhf.md5sums /var/lib/dpkg/info
+('File created by cpFile: ', '')
+('File created: ', '')
+tryTwice ok.
+------------------------------
+Done.
