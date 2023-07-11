@@ -26,22 +26,6 @@ def readEntries(filePath):
 	
 	return ls
 
-# input: list of Entry, to insert head on each of one
-# output: Modify the outputfile ,return 0 if success, -1 if fail.
-#====================
-def addHead(ls, notTest, outfile='./git.new-input.txt'):
-	head = "/mnt/16orig/sdb1/"
-	#outfile = "./git.new-input.txt"
-	fwrite = codecs.open(outfile, 'w')
-	for each in ls:  # each with '\n'.
-		line = head + each
-		#debug
-		print(line)
-		if notTest:
-			fwrite.write(line)
-	fwrite.close()
-	return 0
-
 # input: list of Entry, one by one, to replace the wrong files.
 # output:  Running result.
 #====================
@@ -57,10 +41,7 @@ def replaceThem(ls, notTest):
 		
 		path_l = path_l[4:]  # filter /mnt/16orig/sdb2.
 		
-		if (os.path.isfile(end_ls)):
-			path_l = path_l[:-1]  # filter end file of path.
-		elif (os.path.isdir(end_ls)):
-			path_l = path_l[:-1]  # filter end dir due to /a/b/c/ -> cp -> /a/b/
+		path_l = path_l[:-1]  # filter end dir due to /a/b/c/ -> cp -> /a/b/ || /a/b/c.txt -> /a/b/
 		
 		ent2 = '/' + '/'.join(path_l)  # add first '/'.
 
@@ -70,13 +51,13 @@ def replaceThem(ls, notTest):
 		print(command)
 
 		if notTest:
-			copy_results = -1
+			
 			copy_result = tryTwiceCopy(command, str(ent2))
 			if copy_result == 0:
-				continue			 
+				print('replaceThem ok.')			 
 			else:
-				print('tryTwice return ' + str(copy_result))
-				continue
+				print('replaceThem error, return ' + str(copy_result))
+				
 	return 0
 
 #Copy only try twice. The second try with mkdir.
@@ -115,7 +96,7 @@ def tryTwiceCopy(command, dest):
 				return 0
 
 		else:  # mkdir == -2
-			print('In mkdir of replaceThem error, check log.')
+			print('In mkdir of tryTwiceCopy error, check log.')
 			return -1 
 	else:
 		print('File created: ', cp_output)
@@ -166,18 +147,13 @@ def main(argv):
 		else:
 			print("You provides wrong option.Try again.")
 			return -1	
-
 	
 	try:
 		file = str(argv[2])
-		filePath = "./" + file
+		filePath = "/home/cubie/work/replace/" + file
 		
-		define_outfile = False
-		if len(argv) > 3 :
-			outfile = './' + str(argv[3])  # argv[3] must have if len > 3.
-			define_outfile = True
 		#debug:
-		print(filePath, outfile)
+		print(filePath)
 		print(argv)
 	except Exception, err:
 		print('Make path error: ' + str(Exception) + str(err))
@@ -190,15 +166,12 @@ def main(argv):
 	result = -1
 	if len(entities) > 0:
 		try:
-			if define_outfile == True:
-				result = addHead(entities, notTest, outfile)
-			else:
-				result = addHead(entities, notTest)
+			result = replaceThem(entities, notTest)
 		except Exception, err:
-			print('Changing error: ' + str(Exception) + str(err))
+			print('Replacing error: ' + str(Exception) + str(err))
 			traceback.print_exc()
 	else:
-		print("No Entity to change, check your source-data file.")
+		print("No file to copy, check your source-data file.")
 	print("------------------------------")
 	if result == 0:
 		print("Done.")

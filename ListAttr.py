@@ -8,7 +8,9 @@ import sys
 import codecs
 import commands
 import traceback
-
+from stat import *
+import pwd
+import grp
 # input: filePath(string),data file: path+file
 # output: list of Entry , one by one. 
 #====================
@@ -29,19 +31,88 @@ def readEntries(filePath):
 # input: list of Entry, to insert head on each of one
 # output: Modify the outputfile ,return 0 if success, -1 if fail.
 #====================
-def addHead(ls, notTest, outfile='./git.new-input.txt'):
-	head = "/mnt/16orig/sdb1/"
+def printAttr(ls, notTest, outfile='./git-attr.txt'):
 	#outfile = "./git.new-input.txt"
 	fwrite = codecs.open(outfile, 'w')
 	for each in ls:  # each with '\n'.
-		line = head + each
+		path = each.strip()
+		line = get_file_attr(path)
+		
+		(user_, group_, list_access_) = get_user_attr(path)
+		usr_attr_ = ''
+		for item in list_access_:
+			usr_attr_ += item
+		usr_attr_ = usr_attr_ + ' ' + user_ + ':' + group_ + ' '
+		# singtax not support:#line = line.insert(6, usr_attr_)  # '_file ' is 5 , insert before index 6.
+		tuple_line = line.partition(line[0:6])  # for insert before index 6
 		#debug
-		print(line)
+		#print('line.partition(line[0:6])', tuple_line)
+		ls_line = list(tuple_line)[1:]
+		#debug
+		#print('list(tuple_line)[1:]',ls_line)
+		ls_line.insert(1, usr_attr_)  # must convert to list to insert one .
+		#debug
+		#print(ls_line)
+		line = ''.join(ls_line)
+		#debug
+		print(line.strip())  # line with '\n',so strip.
 		if notTest:
 			fwrite.write(line)
 	fwrite.close()
 	return 0
+# input: full path of an Entry, for user and group and access privilige to get
+# output: (user,group,listofprivilige) of that Entry
+def get_user_attr(path):
+	stat = os.stat(path)
+	mode = os.stat(path).st_mode
+	uid = stat.st_uid
+	gid = stat.st_gid
+	
+	is_readable_u = 'r' if (mode & S_IRUSR > 0) else '-'
+	is_readable_g = 'r' if (mode & S_IRGRP > 0) else '-'
+	is_readable_o = 'r' if (mode & S_IROTH > 0) else '-'
 
+	is_writable_u = 'w' if (mode & S_IWUSR > 0) else '-'
+	is_writable_g = 'w' if (mode & S_IWGRP > 0) else '-'
+	is_writable_o = 'w' if (mode & S_IWOTH > 0) else '-'
+
+	is_execable_u = 'x' if (mode & S_IXUSR > 0) else '-'
+	is_execable_g = 'x' if (mode & S_IXGRP > 0) else '-'
+	is_execable_o = 'x' if (mode & S_IXOTH > 0) else '-'
+
+	user_info_ = pwd.getpwuid(uid)
+	user = user_info_.pw_name
+	
+	group_info_ = grp.getgrgid(gid)
+	group = group_info_.gr_name
+
+	ls_access = []
+	ls_access.append(is_readable_u)
+	ls_access.append(is_writable_u)
+	ls_access.append(is_execable_u)
+	ls_access.append(is_readable_g)
+	ls_access.append(is_writable_g)
+	ls_access.append(is_execable_g)
+	ls_access.append(is_readable_o)
+	ls_access.append(is_writable_o)
+	ls_access.append(is_execable_o)
+
+	return (user, group, ls_access)
+# input: full path of an Entry, may represents a file, a dir ,a link, and a ?
+# output: line of the path Entry's attribute, with '\n', for write to output file.
+def get_file_attr(path):
+	
+	retStr = "null"
+	mode = os.stat(path).st_mode
+	if S_ISDIR(mode):
+		retStr = '_dir  ' + path + '\n'
+	elif S_ISREG(mode):
+		retStr = '_file ' + path + '\n'
+	elif S_ISLNK(mode):
+		retStr = '_lnk  ' + path + '\n'
+	else:
+		retStr = '?___  ' + path + '\n'
+	return retStr
 # input: list of Entry, one by one, to replace the wrong files.
 # output:  Running result.
 #====================
@@ -191,9 +262,9 @@ def main(argv):
 	if len(entities) > 0:
 		try:
 			if define_outfile == True:
-				result = addHead(entities, notTest, outfile)
+				result = printAttr(entities, notTest, outfile)
 			else:
-				result = addHead(entities, notTest)
+				result = printAttr(entities, notTest)
 		except Exception, err:
 			print('Changing error: ' + str(Exception) + str(err))
 			traceback.print_exc()
