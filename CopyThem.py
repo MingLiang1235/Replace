@@ -2,6 +2,7 @@
 #====================
 # Python2  Author: James@
 # NOTICE : Must run in root !
+# :  the source dict is like /...   dest dict is like /mnt/16orig/sdb1/...
 #====================
 import os
 import sys
@@ -29,21 +30,21 @@ def readEntries(filePath):
 # input: list of Entry, one by one, to replace the wrong files.
 # output:  Running result.
 #====================
-def replaceThem(ls, notTest):
+def placeThem(ls, notTest):
 	partialCommand = 'cp -r --preserve '  # -y maybe? -p --preserve origin path .
+	dest_path = '/mnt/16orig/sdb1'
 	for ent in ls:
-		ent1 = ent.strip()
-		end_ls = ent1
-		path_l = ent.strip().split('/')
+		ent1 = ent.strip()  # source
+		path_l = ent.strip().split('/')  # dest
 		
 		#debug:
 		#print('path_l:', path_l)
-		
-		path_l = path_l[4:]  # filter /mnt/16orig/sdb2.
+		path_l = path_l[1:]  # remove '' element of path_l's first.		
+		path_l = path_l.insert(0, dest_path)  # add /mnt/16orig/sdb1 to first location of dest.
 		
 		path_l = path_l[:-1]  # filter end dir due to /a/b/c/ -> cp -> /a/b/ || /a/b/c.txt -> /a/b/
 		
-		ent2 = '/' + '/'.join(path_l)  # add first '/'.
+		ent2 = '/'.join(path_l)  # no need to add first '/'.
 
 		command = partialCommand + str(ent1) + ' ' + str(ent2)
 		
@@ -166,7 +167,7 @@ def main(argv):
 	result = -1
 	if len(entities) > 0:
 		try:
-			result = replaceThem(entities, notTest)
+			result = placeThem(entities, notTest)
 		except Exception, err:
 			print('Replacing error: ' + str(Exception) + str(err))
 			traceback.print_exc()

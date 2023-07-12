@@ -30,10 +30,11 @@ def readEntries(filePath):
 # output: Modify the outputfile ,return 0 if success, -1 if fail.
 #====================
 def addHead(ls, notTest, outfile='./git.new-input.txt'):
-	head = "/mnt/16orig/sdb1/"
+	head = "/mnt/16orig/sdb1"
 	#outfile = "./git.new-input.txt"
 	fwrite = codecs.open(outfile, 'w')
 	for each in ls:  # each with '\n'.
+		#each = each.strip()  # Not correct! to strip '\n' ,file.write(line) is not right.
 		line = head + each
 		#debug
 		print(line)

@@ -1,0 +1,1000 @@
+ 1006  cd /etc
+ 1007  chown pi:pi rc.local
+ 1008  sudo chown pi:pi rc.local
+ 1009  ll rc.local
+ 1010  vim rc.local
+ 1011  sudo reboot
+ 1012  cd /etc/
+ 1013  ls
+ 1014  vim rc.loacl
+ 1015  vim rc.local 
+ 1016  sudo reboot
+ 1017  cd Prog/LCD1602/stats_v5
+ 1018  ll
+ 1019  vim weather.dat
+ 1020  cd ..
+ 1021  ls
+ 1022  ll
+ 1023  git log
+ 1024  ll
+ 1025  cd stats_v5
+ 1026  ll
+ 1027  cd ..
+ 1028  ls
+ 1029  ll
+ 1030  git status
+ 1031  sudo git add .
+ 1032  sudo git log
+ 1033  sudo git commit -m "Absolute weather.dat path."
+ 1034  git log
+ 1035  sudo git push home master
+ 1036  git log
+ 1037  ps -aux | grep stats
+ 1038  cd Prog/LCD1602/
+ 1039  cd stats_v5
+ 1040  ls
+ 1041  ./starts_weather_get_and_write.py 
+ 1042  ps -aux | grep stats
+ 1043  ps -aux | grep starts_weather_get_and_write.py 
+ 1044  ps -aux | grep starts
+ 1045  ll
+ 1046  nohup ./starts_weather_get_and_write.py &
+ 1047  ps -aux | grep starts
+ 1048  vim weather.dat
+ 1049  python3 weather.py 
+ 1050  python3 test_weather.py 
+ 1051  ps -aux | grep starts
+ 1052  free -h
+ 1053  ifconfig
+ 1054  ping 10.10.5.11
+ 1055  ping 10.10.5.10
+ 1056  vim test_weather.py 
+ 1057  python3 test_weather.py 
+ 1058  ps -aux | grep stats
+ 1059  ps -aux | grep start
+ 1060  ll
+ 1061  vim test_weather.py
+ 1062  python3 test_weather.py 
+ 1063  vim weather.dat 
+ 1064  ps -aux | grep start
+ 1065  vim starts_weather_get_and_write.py 
+ 1066  vim test_weather.py
+ 1067  ps -aux | grep start
+ 1068  vim weather.dat 
+ 1069  ps -aux | grep start
+ 1070  find nohup.out
+ 1071  ll
+ 1072  vim nohup.out
+ 1073  find -h
+ 1074  find --help
+ 1075  find / nohup.out
+ 1076  find / | grep nohup.out
+ 1077  sudo find / | grep nohup.out
+ 1078  vim /nohup.out
+ 1079  ll /
+ 1080  sudo vim nohup.out
+ 1081  sudo vim /nohup.out
+ 1082  sudo vim nohup.out
+ 1083  ll
+ 1084  ps -aux | grep starts
+ 1085  :q
+ 1086  ps -aux | grep starts
+ 1087  ll
+ 1088  vim nohup.out
+ 1089  ls
+ 1090  ps -aux | grep stats
+ 1091  ls
+ 1092  cd /etc/
+ 1093  ls
+ 1094  ll rc.local 
+ 1095  vim rc.local
+ 1096  cd /
+ 1097  ll
+ 1098  tail nohup.out 
+ 1099  sudo tail nohup.out 
+ 1100  cd ~/Prog/LCD1602/
+ 1101  ls
+ 1102  cd stats_v5
+ 1103  ls
+ 1104  nohup ./stats_multi_items_in_class.py &
+ 1105  ps -aux | grep stats
+ 1106  ll
+ 1107  tail nohup.out 
+ 1108  ping 10.10.5.12
+ 1109  nohup ./stats_multi_items_in_class.py &
+ 1110  tail nohup.out 
+ 1111  vim nohup.out
+ 1112  nohup ./stats_multi_items_in_class.py &
+ 1113  pwd
+ 1114  df -h
+ 1115  df -hl
+ 1116  free
+ 1117  free -h
+ 1118  dir
+ 1119  ls
+ 1120  cd /boot
+ 1121  ls
+ 1122  cd overlays
+ 1123  ls
+ 1124  cat readme
+ 1125  vim readme
+ 1126  cd ..
+ 1127  ls
+ 1128  sudo vim config.txt
+ 1129  vim config.txt
+ 1130  cd /sys/devices/platform/dht11
+ 1131  cd /sys/devices/platform
+ 1132  ls
+ 1133  ll
+ 1134  cd /dev
+ 1135  ls
+ 1136  ls dht11
+ 1137  ls ./dht11
+ 1138  ll
+ 1139  sudo shutdown now
+ 1140  sudo vim /boot/config.txt
+ 1141  cat /boot/config.txt
+ 1142  sudo reboot now
+ 1143  suto cat /dev/dht1
+ 1144  sudo cat /dev/dht11
+ 1145  cd /sys/devices/platform
+ 1146  ls
+ 1147  ll
+ 1148  cd dht11@0
+ 1149  ll
+ 1150  cd iio:device0
+ 1151  ls
+ 1152  ll
+ 1153  cls
+ 1154  clear
+ 1155  ll
+ 1156  cat in_temp_input
+ 1157  cat in_humidityrelative_input 
+ 1158  free -h
+ 1159  cd /sys/devices/platform/dht11@0/iio:device0
+ 1160  ls
+ 1161  cat in_temp_input
+ 1162  cat in_humidityrelative_input 
+ 1163  cat in_temp_input
+ 1164  cat in_humidityrelative_input 
+ 1165  sudo vim /boot/config.txt
+ 1166  sudo shutdown now
+ 1167  sudo vim /boot/config.txt
+ 1168  sudo reboot now
+ 1169  pwd
+ 1170  ls
+ 1171  cd Prog
+ 1172  ls
+ 1173  cd LCD1602
+ 1174  ls
+ 1175  git status
+ 1176  git reflog
+ 1177  git log
+ 1178  git reflog
+ 1179  git status
+ 1180  git add .
+ 1181  git status
+ 1182  git commit -m "Before add tempreture,commit and clean project."
+ 1183  sudo git commit -m "Before add tempreture,commit and clean project."
+ 1184  git status
+ 1185  git remote show
+ 1186  sudo git push home master
+ 1187  git log
+ 1188  ll
+ 1189  cd stats_v5
+ 1190  ls
+ 1191  grep -irn "starts_weather_get_and_write"
+ 1192  grep -irn "weather.dat"
+ 1193  vim weather.dat
+ 1194  ll
+ 1195  vim config
+ 1196  ./starts_weather_get_and_write.py 
+ 1197  ls
+ 1198  vim weather.dat
+ 1199  history
+ 1200  cd /etc
+ 1201  ls
+ 1202  ll rc.local
+ 1203  vim rc.local
+ 1204  sudo reboot now
+ 1205  cd /sys/devices/platform/dht11@0/iio:device0
+ 1206  cd sys/devices/platform/dht11@0
+ 1207  cd /sys/devices
+ 1208  ls
+ 1209  cd platform
+ 1210  ls
+ 1211  cd dht11@17
+ 1212  ls
+ 1213  cd iio\:device0/
+ 1214  ls
+ 1215  cat in_temp_input
+ 1216  ls
+ 1217  cat in_humidityrelative_input 
+ 1218  cat in_temp_input
+ 1219  python
+ 1220  python3
+ 1221  ls
+ 1222  cat in_temp_input 
+ 1223  python3
+ 1224  ls
+ 1225  cat in_temp_input
+ 1226  cat in_humidityrelative_input 
+ 1227  python3
+ 1228  pwd
+ 1229  cd Prog
+ 1230  ls
+ 1231  cd LCD1602/
+ 1232  ls
+ 1233  cd stats_v5
+ 1234  ls
+ 1235  ./starts_weather_get_and_write.py 
+ 1236  clear
+ 1237  ./starts_weather_get_and_write.py 
+ 1238  dir
+ 1239  cd Prog
+ 1240  ls
+ 1241  cd LCD1602
+ 1242  ls
+ 1243  git status
+ 1244  git add .
+ 1245  git commit -m "Add house temperature sensor data."
+ 1246  sudo git commit -m "Add house temperature sensor data."
+ 1247  git status
+ 1248  git log
+ 1249  git push home master
+ 1250  git log
+ 1251  git reflog
+ 1252  exit
+ 1253  pwd
+ 1254  free
+ 1255  free -h
+ 1256  df -hl
+ 1257  cd Prog
+ 1258  ls
+ 1259  cd LCD1602
+ 1260  ls
+ 1261  git status
+ 1262  git log
+ 1263  git status
+ 1264  git log
+ 1265  exit
+ 1266  cd Prog
+ 1267  ls
+ 1268  cd LCD1602
+ 1269  ls
+ 1270  cd stats_v5
+ 1271  ls
+ 1272  vim weather.py
+ 1273  vim weather.dat
+ 1274  ll
+ 1275  cd /boot
+ 1276  vim config.txt
+ 1277  cd ~
+ 1278  ls
+ 1279  mkdir Backup
+ 1280  cp /boot/config.txt ./Backup/
+ 1281  cd Backup
+ 1282  ls
+ 1283  ll
+ 1284  cp /etc/rc.local ./
+ 1285  ls
+ 1286  ll
+ 1287  vim rc.local
+ 1288  exit
+ 1289  dir
+ 1290  ls
+ 1291  pwd
+ 1292  cd Prog
+ 1293  cd LCD1602/
+ 1294  ls
+ 1295  cd stats_v5
+ 1296  ls
+ 1297  ./starts_weather_get_and_write.py 
+ 1298  vim weather.dat
+ 1299  cd Prog/LCD1602/stats_v5
+ 1300  vim weather.dat
+ 1301  sudo reboot now
+ 1302  cd Prog/LCD1602/stats_v5
+ 1303  git status
+ 1304  git add .
+ 1305  git commit -m "Modify temperature to dot form."
+ 1306  git status
+ 1307  git push home master
+ 1308  git status
+ 1309  git reflog
+ 1310  git status
+ 1311  git log
+ 1312  ll
+ 1313  git log
+ 1314  python3
+ 1315  ls
+ 1316  cd Prog
+ 1317  ls
+ 1318  cd LCD1602
+ 1319  ls
+ 1320  cd stats_v5
+ 1321  ls
+ 1322  ./starts_weather_get_and_write.py 
+ 1323  cd ..
+ 1324  ls
+ 1325  git status
+ 1326  git add .
+ 1327  git commit -m "Add show first line with placeholder."
+ 1328  git status
+ 1329  git log
+ 1330  git reflog
+ 1331  sudo reboot now
+ 1332  cd Prog
+ 1333  ls
+ 1334  cd LCD1602/
+ 1335  ls
+ 1336  git statu
+ 1337  git status
+ 1338  git tag
+ 1339  git reflog
+ 1340  git tag v1.0.0
+ 1341  git tag
+ 1342  git reflog
+ 1343  git log
+ 1344  git status
+ 1345  cd ..
+ 1346  ls
+ 1347  cd test
+ 1348  ls
+ 1349  cd ..
+ 1350  ls
+ 1351  ll
+ 1352  mkdir temp
+ 1353  cd temp
+ 1354  git clone ssh://admin@10.10.5.20:1590/volume1/git_repos/raspi/LCD1602
+ 1355  git log
+ 1356  cd LCD1602
+ 1357  git log
+ 1358  git pull home master
+ 1359  git remote show
+ 1360  git remote show origin
+ 1361  git log
+ 1362  git reflog
+ 1363  git pull origin master
+ 1364  git log
+ 1365  git status
+ 1366  git log
+ 1367  git reflog
+ 1368  cd ..
+ 1369  mkdir test_get_tag
+ 1370  cd test_get_tag/
+ 1371  ls
+ 1372  git clone ssh://admin@10.10.5.20:1590/volume1/git_repos/raspi/LCD1602
+ 1373  ls
+ 1374  cd LCD1602
+ 1375  ls
+ 1376  git reflog
+ 1377  exit
+ 1378  cd Prog
+ 1379  cd LCD1602/
+ 1380  git remote show home
+ 1381  git tag
+ 1382  git push home v1.0.0
+ 1383  git log
+ 1384  qcd ..
+ 1385  cd ..
+ 1386  ls
+ 1387  cd temp
+ 1388  ls
+ 1389  cd ..
+ 1390  ls
+ 1391  rm -rf ./temp
+ 1392  ll
+ 1393  exit
+ 1394  df -h
+ 1395  free -h
+ 1396  top
+ 1397  git log
+ 1398  cd Prog
+ 1399  cd LCD1602/
+ 1400  git status
+ 1401  git log
+ 1402  dir
+ 1403  git reflog
+ 1404  git pull home master
+ 1405  git push home master
+ 1406  git status
+ 1407  git log
+ 1408  dir
+ 1409  exit
+ 1410  sudo shutdown now
+ 1411  lsusb
+ 1412  apt --help
+ 1413  man apt
+ 1414  sudp apt install luvcview
+ 1415  sudo apt install luvcview
+ 1416  which luvcview
+ 1417  history | grep apt
+ 1418  luvcview -s 320x200
+ 1419  ls
+ 1420  cd history
+ 1421  ls
+ 1422  hitory > ./history.2022-12-06
+ 1423  history > ./history.2022-12-06
+ 1424  ipconfig
+ 1425  ifconfig
+ 1426  top
+ 1427  luvcview -s 320x200
+ 1428  luvcview
+ 1429  su
+ 1430  su root
+ 1431  luvcview
+ 1432  luvcview -s 320x200
+ 1433  luvcview
+ 1434  luvcview -s 320x200
+ 1435  luvcview
+ 1436  luvcview -s 1024x768
+ 1437  to
+ 1438  top
+ 1439  df -h
+ 1440  free -h
+ 1441  exit
+ 1442  cd /sys/devices/
+ 1443  ls
+ 1444  cd platform
+ 1445  ls
+ 1446  cd dht11@17
+ 1447  ls
+ 1448  ll
+ 1449  cd iio:device0
+ 1450  ls
+ 1451  ll
+ 1452  vim in_humidityrelative_input 
+ 1453  vim in_temp_input
+ 1454  luvuview
+ 1455  history | grep lv
+ 1456  history | grep view
+ 1457  luvcview -s 1024x768
+ 1458  luvcview -s 640x480
+ 1459  top
+ 1460  free -h
+ 1461  exit
+ 1462  cd /sys/devices
+ 1463  ls
+ 1464  cd platform
+ 1465  ls
+ 1466  cd dht11@17
+ 1467  ls
+ 1468  cd iio:device0
+ 1469  ls
+ 1470  cat in_humidityrelative_input 
+ 1471  vim in_humidityrelative_input 
+ 1472  vim in_temp_input 
+ 1473  ll
+ 1474  vim of_node
+ 1475  cd of_node
+ 1476  ls
+ 1477  ll
+ 1478  vim gpios
+ 1479  cat gpios
+ 1480  cat pinctrl-0
+ 1481  vim compatible 
+ 1482  vim status
+ 1483  vim pinctrl-names 
+ 1484  vim gpios
+ 1485  vim name
+ 1486  vim pinctrl-0
+ 1487  vim phandle 
+ 1488  cd -
+ 1489  ls
+ 1490  ll
+ 1491  vim in_humidityrelative_input 
+ 1492  cd ~
+ 1493  ll
+ 1494  cd Music
+ 1495  ls
+ 1496  ll
+ 1497  cd ..
+ 1498  ls
+ 1499  ll
+ 1500  cd Pictures
+ 1501  ls
+ 1502  ll
+ 1503  cd ..
+ 1504  ls
+ 1505  sync
+ 1506  sudo reboot now
+ 1507  cd prog
+ 1508  cd Prog
+ 1509  ls
+ 1510  cd LCD1602
+ 1511  ls
+ 1512  cd stats_v5
+ 1513  ls
+ 1514  cd test
+ 1515  ls
+ 1516  cd ..
+ 1517  ls
+ 1518  ll
+ 1519  ls
+ 1520  cls
+ 1521  clear
+ 1522  ls
+ 1523  vim utilities.py 
+ 1524  vim show_reference.py 
+ 1525  grep --help
+ 1526  grep -irn "sys/devices" ./
+ 1527  vim weather.py
+ 1528  top
+ 1529  dir
+ 1530  ls
+ 1531  cd ./Prog
+ 1532  ls
+ 1533  cd LCD1602/
+ 1534  ls
+ 1535  cd stats_v5
+ 1536  ls
+ 1537  vim weather.py
+ 1538  free -h
+ 1539  cd /
+ 1540  cd sys/devices
+ 1541  ls
+ 1542  cd platform
+ 1543  ls
+ 1544  cd dht11@17/
+ 1545  ls
+ 1546  cd iio:device0
+ 1547  ls
+ 1548  ll
+ 1549  vim in_temp_input 
+ 1550  chmod 666 in*
+ 1551  sudo chmod 666 in*
+ 1552  vim name
+ 1553  vim dev
+ 1554  vim nevent
+ 1555  vim uevent
+ 1556  cd power
+ 1557  ls
+ 1558  ll
+ 1559  vim autosuspend_delay_ms 
+ 1560  vim control
+ 1561  vim runtime_active_time 
+ 1562  vim runtime_status
+ 1563  vim runtime_suspended_time 
+ 1564  vim control
+ 1565  vim autosuspend_delay_ms 
+ 1566  sudo chmod 666 autosuspend_delay_ms 
+ 1567  ll
+ 1568  vim autosuspend_delay_ms 
+ 1569  ll
+ 1570  cd ..
+ 1571  ls
+ 1572  ll
+ 1573  vim uevent
+ 1574  cd subsystem
+ 1575  ls
+ 1576  vim uevent
+ 1577  ll
+ 1578  vim drivers_autoprobe 
+ 1579  cd devices
+ 1580  ls
+ 1581  ll
+ 1582  cd ..
+ 1583  ls
+ 1584  cd drivers
+ 1585  ls
+ 1586  ll
+ 1587  cd ..
+ 1588  ls
+ 1589  ll
+ 1590  cd ../../..
+ 1591  ls
+ 1592  cd ..
+ 1593  ls
+ 1594  cd bus
+ 1595  ls
+ 1596  cd iio
+ 1597  ls
+ 1598  cd ../
+ 1599  ls
+ 1600  cd ..
+ 1601  ls
+ 1602  cd devices
+ 1603  ls
+ 1604  cd platform
+ 1605  ls
+ 1606  cd dht11@17
+ 1607  ls
+ 1608  ll
+ 1609  vim driver_override 
+ 1610  vim modalias 
+ 1611  vim uevent
+ 1612  cd power
+ 1613  ls
+ 1614  ll
+ 1615  cd -
+ 1616  ls
+ 1617  ll
+ 1618  cd iio:devices0
+ 1619  ls
+ 1620  cd "iio:device0"/
+ 1621  ls
+ 1622  ll
+ 1623  vim in_humidityrelative_input 
+ 1624  sync
+ 1625  sudo shutdown -hP now
+ 1626  shutdown --help
+ 1627  sync
+ 1628  sudo shutdown -P 1
+ 1629  cd /sys/devices/platform/
+ 1630  ls
+ 1631  cd dht11@17/
+ 1632  ls
+ 1633  cd "iio:device0"/
+ 1634  ls
+ 1635  ll
+ 1636  cd power
+ 1637  ls
+ 1638  ll
+ 1639  cd ..
+ 1640  ls
+ 1641  ll
+ 1642  cd of_node/
+ 1643  ls
+ 1644  ll
+ 1645  cd ..
+ 1646  ls
+ 1647  exit
+ 1648  ps -aux | grep python
+ 1649  ping 10.10.5.12
+ 1650  ping 10.10.5.200
+ 1651  ifconfig
+ 1652  ping 10.10.5.230
+ 1653  ping 10.10.5.200
+ 1654  ping 10.10.5.10
+ 1655  ping 10.10.5.200
+ 1656  ping 10.10.5.156
+ 1657  ping 10.10.5.33
+ 1658  ping 10.10.5.31
+ 1659  ssh 10.10.5.31 -l root -p 22
+ 1660  ping 10.10.5.33
+ 1661  ping 10.10.5.20
+ 1662  ls
+ 1663  cd /var
+ 1664  ls
+ 1665  cd log
+ 1666  ls
+ 1667  tail user.log
+ 1668  ll 
+ 1669  tail user.log.1
+ 1670  ls
+ 1671  tail faillog
+ 1672  ll faillog
+ 1673  ll dpkg*
+ 1674  tail dpkg.log.1
+ 1675  ztail dpkg.log.2.gz 
+ 1676  zcat dpkg.log.2.gz 
+ 1677  cd /tmp
+ 1678  ls
+ 1679  ll
+ 1680  cd dhcpcd-pi/
+ 1681  ls
+ 1682  ll
+ 1683  tail libdhcpcd-wpa-644.0
+ 1684  cd ..
+ 1685  ls
+ 1686  ll
+ 1687  cd systemd-private-73e8abd03de84be18c1f31a841bc4177-systemd-timesyncd.service-39Atdx/
+ 1688  ls
+ 1689  sudo su -
+ 1690  ls
+ 1691  cd pws
+ 1692  pwd
+ 1693  cd ~
+ 1694  ls
+ 1695  cd /usr/share
+ 1696  ls
+ 1697  cd doc
+ 1698  ls
+ 1699  apt-get changelog | more
+ 1700  apt-get changelog iftop | more
+ 1701  apt-get changelog dukto | more
+ 1702  sudo apt install dukto
+ 1703  ssh 10.10.5.20 -l admin -p 1590
+ 1704  ls
+ 1705  cd ..
+ 1706  cd ~
+ 1707  ls
+ 1708  cd Prog
+ 1709  ls
+ 1710  git clone ssh://admin@10.10.5.20:1590/volume1/git_repos/project/Dukto
+ 1711  cd Dukto
+ 1712  ls
+ 1713  cat readme.md
+ 1714  cat README.md 
+ 1715  cat README.md | more
+ 1716  cd ~
+ 1717  pwd
+ 1718  ls
+ 1719  cd Tools
+ 1720  ls
+ 1721  mkdir Dukto_R6
+ 1722  cd ...
+ 1723  cd ../,,
+ 1724  cd ..
+ 1725  ls
+ 1726  cd Prog
+ 1727  ls
+ 1728  cd Dukto
+ 1729  ls
+ 1730  pwd
+ 1731  ./configure prefix=/home/pi/tools/Dukto
+ 1732  make
+ 1733  ls
+ 1734  gcc main.cpp
+ 1735  apt-get changelog Qt | more
+ 1736  apt-get changelog Qt5 | more
+ 1737  apt-get policy 
+ 1738  apt policy Qt
+ 1739  apt policy Qt5
+ 1740  apt policy PyQt
+ 1741  apt policy PyQt5
+ 1742  apt policy 
+ 1743  sudo apt install build-essential
+ 1744  sudo apt policy build-essential
+ 1745  sudo apt policy libqt5-core
+ 1746  sudo apt policy libqt4-core
+ 1747  apt install libqt4-core libqt4-debug libqt4-dev libqt4-gui libqt4-qt3support libqt4-sql qt4-designer qt4-dev-tools qt4-doc qt4-qtconfig
+ 1748  sudo apt install libqt4-core libqt4-debug libqt4-dev libqt4-gui libqt4-qt3support libqt4-sql qt4-designer qt4-dev-tools qt4-doc qt4-qtconfig
+ 1749  sudo apt install qt4-core qt4-debug libqt4-dev qt4-gui libqt4-qt3support libqt4-sql qt4-designer qt4-dev-tools qt4-doc qt4-qtconfig
+ 1750  sudo apt install libqt4-dev libqt4-qt3support libqt4-sql qt4-designer qt4-dev-tools qt4-doc qt4-qtconfig
+ 1751  ls
+ 1752  gcc main.cpp
+ 1753  qmake -project -o main.pro
+ 1754  qmake main.pro
+ 1755  make
+ 1756  ls
+ 1757  cat main.pro
+ 1758  cat main.pro | more
+ 1759  vim main.pro
+ 1760  make
+ 1761  cd Prog'
+ 1762  ls
+ 1763  cd Prog
+ 1764  ls
+ 1765  cd Dukto
+ 1766  vim main.pro
+ 1767  make
+ 1768  vim main.pro
+ 1769  make
+ 1770  ls
+ 1771  ls | more
+ 1772  main
+ 1773  ./main
+ 1774  cd Prog
+ 1775  cd Dukto
+ 1776  ./main
+ 1777  cd Prog
+ 1778  ls
+ 1779  cd Dukto
+ 1780  ls
+ 1781  dir m*
+ 1782  dir makefile
+ 1783  ls
+ 1784  vim Makefile
+ 1785  ls Config*
+ 1786  ls confi*
+ 1787  ./configure
+ 1788  exit
+ 1789  PING 10.10.5.10
+ 1790  ping 10.10.5.10
+ 1791  ping www.unicoder.me
+ 1792  google
+ 1793  ls
+ 1794  cd Prog
+ 1795  ls
+ 1796  ssh
+ 1797  ping 10.10.5.16
+ 1798  ssh 10.10.5.162 -l uni
+ 1799  dir
+ 1800  cd LCD1602
+ 1801  ls
+ 1802  ls -la
+ 1803  git status
+ 1804  git reflog
+ 1805  git remote show
+ 1806  git remote show home
+ 1807  git remote delete home
+ 1808  git remote remove home
+ 1809  git remote add home ssh://uni@10.10.5.162:22/git_repos/raspi/LCD1602
+ 1810  git remote show home
+ 1811  git status
+ 1812  git log
+ 1813  git push home master
+ 1814  vim ./local.rc
+ 1815  vim ./rc.local
+ 1816  sudo find / | grep rc.local
+ 1817  cd /etc/
+ 1818  vim rc.local
+ 1819  pc -aux 
+ 1820  ps =aux | grep mult
+ 1821  ps aux | grep mult
+ 1822  top
+ 1823  free -h
+ 1824  df -h
+ 1825  exit
+ 1826  ifconfig
+ 1827  df -h
+ 1828  exit
+ 1829  ls
+ 1830  cd Prog
+ 1831  ls
+ 1832  cd Dukto
+ 1833  ls
+ 1834  ll
+ 1835  ./main
+ 1836  git log
+ 1837  git remote show
+ 1838  git remote show origin
+ 1839  ls
+ 1840  git remote add home ssh://pi@10.10.5.200/git_repos/Cpp/Dukto
+ 1841  git remote show home
+ 1842  git status
+ 1843  git log
+ 1844  git reflog
+ 1845  git add .
+ 1846  git commit -m "Local compile volumes."
+ 1847  git status
+ 1848  git log
+ 1849  git push home master
+ 1850  git log
+ 1851  git reflog
+ 1852  ls
+ 1853  cd /etc/
+ 1854  ls issue*
+ 1855  vim issue.net
+ 1856  history | grep qt4
+ 1857  history > ~/work/backup
+ 1858  mkdir -p ~/work/backup
+ 1859  history > ~/work/backup/history-qt-230615.txt
+ 1860  cd ~/work/backup
+ 1861  ls
+ 1862  mkdir history
+ 1863  cd history
+ 1864  mkdir pi-workstation-history
+ 1865  cp ../history-qt-230615.txt  pi-workstation-history/
+ 1866  cd pi-workstation-history/
+ 1867  ls
+ 1868  git init
+ 1869  git log
+ 1870  git status
+ 1871  git add .
+ 1872  git commit -m "Fist commit pi-workstation-history."
+ 1873  git status
+ 1874  ls -l
+ 1875  ls -a
+ 1876  rm -r .git
+ 1877  ls
+ 1878  ls -a
+ 1879  cd ..
+ 1880  ls
+ 1881  git init
+ 1882  git add .
+ 1883  git commit -m "First commit pi-workstation-history."
+ 1884  git status
+ 1885  git log
+ 1886  git remote add home ssh://pi@10.10.5.200/git_repos/Files/ConfigFiles/history
+ 1887  git push home master
+ 1888  git log
+ 1889  git reflog
+ 1890  ls
+ 1891  pwd
+ 1892  ls
+ 1893  cd ..
+ 1894  ls
+ 1895  cd ..
+ 1896  ls
+ 1897  sudo apt upgrade
+ 1898  uname -a
+ 1899  uname -rvsmn
+ 1900  cd /usr/share/doc/linux-base/
+ 1901  ls
+ 1902  cat changelog.gz
+ 1903  qls
+ 1904  vim changelog.gz
+ 1905  cd ..
+ 1906  ls linux*
+ 1907  sudo reboot now
+ 1908  cd /usr/share/doc
+ 1909  ls
+ 1910  ll
+ 1911  sudo apt install linuxlogo
+ 1912  sudo reboot now
+ 1913  uname -a
+ 1914  uname -m
+ 1915  getconf LONG_BIT
+ 1916  getconf PATH
+ 1917  echo "$PATH"
+ 1918  echo "$LONG_BIT"
+ 1919  history > ~/work/backup/history-230615-getconf.txt
+ 1920  exit
+ 1921  ssh 10.10.5.201 -l jishan
+ 1922  scp jishan@10.10.5.201:/home/jishan/work/pi-server-slogan/All-about-pi-slogan.txt ~/work/all-about-pi-slogan.txt
+ 1923  cd work
+ 1924  ls
+ 1925  uname
+ 1926  uname -a
+ 1927  ssh 10.10.5.200 -l pi
+ 1928  cat /etc/issue
+ 1929  cat /etc/issue-net
+ 1930  cat /etc/issue.net
+ 1931  cd /etc/motd.d
+ 1932  ls
+ 1933  cd /etc/
+ 1934  ls motd*
+ 1935  vim motd
+ 1936  ssh 10.10.5.200 -l pi
+ 1937  apt policy linuxlogo
+ 1938  sudo apt remove --pureg linuxlogo
+ 1939  sudo apt remove --purege linuxlogo
+ 1940  apt remove --help
+ 1941  sudo apt remove --help
+ 1942  sudo apt remove --purge linuxlogo
+ 1943  ssh 10.10.5.200 -l pi
+ 1944  exit
+ 1945  sync
+ 1946  sudo sync
+ 1947  sudo shutdown -HP now
+ 1948  ls
+ 1949  ll
+ 1950  cd Prog
+ 1951  ls
+ 1952  cd Dukto
+ 1953  ls
+ 1954  ./main
+ 1955  ls
+ 1956  uname -a
+ 1957  cd work
+ 1958  ls
+ 1959  ll
+ 1960  ls
+ 1961  cd dpkg
+ 1962  ls
+ 1963  autoconf configure.ac 
+ 1964  sudo apt install autoconf
+ 1965  ls
+ 1966  autoconf configure.ac
+ 1967  sudo autoconf configure.ac
+ 1968  sudo autoconf configure.ac >&1 | tee ../autoconf-dpkg.txt
+ 1969  ls
+ 1970  automake 
+ 1971  sudo automake
+ 1972  ls
+ 1973  git log
+ 1974  git show tag
+ 1975  git show tags
+ 1976  git tags
+ 1977  git tag
+ 1978  git checkout 1.15.9
+ 1979  git log
+ 1980  sudo git checkout 1.15.9
+ 1981  sudo git checkout -f 1.15.9
+ 1982  git log
+ 1983  ls
+ 1984  ll
+ 1985  sudo automake
+ 1986  sudo autoconf
+ 1987  ls
+ 1988  cd doc
+ 1989  ls
+ 1990  cd ..
+ 1991  ls
+ 1992  cat README | more
+ 1993  git reflog
+ 1994  sync
+ 1995  sudo sync
+ 1996  sudo shutdown -h
+ 1997  sudo shutdown -c
+ 1998  sudo shutdown --help
+ 1999  sudo shutdown -HP 1
+ 2000  ls
+ 2001  uname -a
+ 2002  dir
+ 2003  ls
+ 2004  history > history/history.txt
+ 2005  history > history.txt

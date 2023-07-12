@@ -31,7 +31,7 @@ def readEntries(filePath):
 # input: list of Entry, to insert head on each of one
 # output: Modify the outputfile ,return 0 if success, -1 if fail.
 #====================
-def printAttr(ls, notTest, outfile='./git-attr.txt'):
+def printAttr(ls, notTest, outfile='./git-attr.log'):
 	#outfile = "./git.new-input.txt"
 	fwrite = codecs.open(outfile, 'w')
 	for each in ls:  # each with '\n'.
