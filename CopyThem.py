@@ -23,7 +23,7 @@ def readEntries(filePath):
 	
 	#debug:
 	print("Entities: " + str(len(ls)))
-	print(ls)
+	#print(ls)
 	
 	return ls
 
@@ -38,11 +38,12 @@ def placeThem(ls, notTest):
 		path_l = ent.strip().split('/')  # dest
 		
 		#debug:
-		#print('path_l:', path_l)
-		path_l = path_l[1:]  # remove '' element of path_l's first.		
-		path_l = path_l.insert(0, dest_path)  # add /mnt/16orig/sdb1 to first location of dest.
-		
-		path_l = path_l[:-1]  # filter end dir due to /a/b/c/ -> cp -> /a/b/ || /a/b/c.txt -> /a/b/
+		#print('falsh get path_l:', path_l)
+		path_l = path_l[1:-1]  # remove '' element of path_l's first.		
+		path_l.insert(0, dest_path)  # add /mnt/16orig/sdb1 to first location of dest.
+		#debug:
+		#print('changed path_l:', path_l)
+		#path_l = path_l[:-1]  # filter end dir due to /a/b/c/ -> cp -> /a/b/ || /a/b/c.txt -> /a/b/
 		
 		ent2 = '/'.join(path_l)  # no need to add first '/'.
 
@@ -151,7 +152,7 @@ def main(argv):
 	
 	try:
 		file = str(argv[2])
-		filePath = "/home/cubie/work/replace/" + file
+		filePath = "./" + file
 		
 		#debug:
 		print(filePath)

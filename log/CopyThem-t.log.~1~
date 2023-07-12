@@ -1,0 +1,7 @@
+Len(argv)=3; argv[0]=CopyThem.py
+/home/cubie/work/replace/git-find-without-dot.txt
+['CopyThem.py', '-t', 'git-find-without-dot.txt']
+Reading file error: <type 'exceptions.Exception'>[Errno 2] No such file or directory: '/home/cubie/work/replace/git-find-without-dot.txt'
+No file to copy, check your source-data file.
+------------------------------
+Proceed with error, check logs.
