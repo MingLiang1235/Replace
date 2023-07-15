@@ -31,7 +31,7 @@ def readEntries(filePath):
 # output:  Running result.
 #====================
 def placeThem(ls, notTest):
-	partialCommand = 'cp -r --preserve '  # -y maybe? -p --preserve origin path .
+	partialCommand = 'cp -r --preserve -P '  # -y maybe? -p --preserve origin path -P not follow symbolink.
 	dest_path = '/mnt/16orig/sdb1'
 	for ent in ls:
 		ent1 = ent.strip()  # source
@@ -136,7 +136,7 @@ def main(argv):
 			print("Lack arguments. Not run. Notice: Place the data-file in /home/cuibe/work/replace/, and invoke it explicitly.")
 			return -1
 		elif len(argv) == 2 and (argv[1] == '--help' or argv[1] == '-h'):
-			print("\nReplacer.py [-t|--exec|-h|--help] datafile \n-h --help   get the help notice.\n--exec   do real copy\n-t   do not real copy,test and verbos it only. ")
+			print("\nMake sure use root to run me\nCopyThem.py [-t|--exec|-h|--help] datafile \n-h --help   get the help notice.\n--exec   do real copy\n-t   do not real copy,test and verbos it only. \nThe programme has no log output, make sure make log yourself if necessary.")
 			return -1
 		elif len(argv) == 2:
 			print("Bad or lack option. Please reference help to give correct one.")
