@@ -1,3 +1,4 @@
+#-*- encoding:UTF-8 -*-
 #!/usr/bin/python2
 #====================
 # Python2  Author: James@
@@ -9,7 +10,7 @@ import sys
 import codecs
 import commands
 import traceback
-
+import to_unicode
 # input: filePath(string),data file: path+file
 # output: list of Entry , one by one. 
 #====================
@@ -58,7 +59,7 @@ def placeThem(ls, notTest):
 			if copy_result == 0:
 				print('replaceThem ok.')			 
 			else:
-				print('replaceThem error, return ' + str(copy_result))
+				print('replaceThem error, return %s'% copy_result)
 				
 	return 0
 
@@ -73,7 +74,7 @@ def tryTwiceCopy(command, dest):
 		print('Try copy once error: ' + str(Exception) + str(err))
 		return -1
 	if cp_status != 0:
-		print('Cp error: ', str(cp_output))
+		print('Cp error: %s'% cp_output)
 		
 		# ~~Try mkdir:~~
 		
@@ -92,16 +93,16 @@ def tryTwiceCopy(command, dest):
 				print('Try copy twice error: ' + str(Exception) + str(err))
 				return -1
 			if cp_status2 != 0:
-				print('Cp twice error: ', str(cp_output2))
+				print('Cp twice error: %s'% cp_output2)
 			else:
-				print('File created by mkdir: ', str(cp_output2))
+				print('File created by mkdir: %s'% cp_output2)
 				return 0
 
 		else:  # mkdir == -2
 			print('In mkdir of tryTwiceCopy error, check log.')
 			return -1 
 	else:
-		print('File created: ', cp_output)
+		print('File created: %s'% cp_output)
 		return 0
 
 #input : command is like cp -r.
@@ -110,10 +111,10 @@ def tryTwiceCopy(command, dest):
 def cpFile(command):
 	(result_status, result_output) = commands.getstatusoutput(command)
 	if result_status != 0:
-		print('In cpFile, cp error: ', result_output)
+		print('In cpFile, cp error: %s'% result_output)
 		return (-1, str(result_output))	
 	else:
-		print('File created by cpFile: ', result_output)
+		print('File created by cpFile: %s'% result_output)
 		return (0, "")
 
 #====================
@@ -121,10 +122,16 @@ def createDirectory(cp_output, ent2):
 	if True and ent2:
 		(rsl_status, rsl_output) = commands.getstatusoutput('mkdir -pv ' + str(ent2))
 		if rsl_status != 0:
-			print('Mkdir error: ', str(rsl_output))
+			#print('Mkdir error: ', str(rsl_output))
+			#print('Mkdir error: ', str(rsl_output).decode('utf-8'))
+			#print('Mkdir error: ', str(rsl_output).decode('gbk'))
+			print('Mkdir error: %s'% rsl_output)
 			return -1
 		else:
-			print('Direcoty created: ', str(rsl_output))
+			#print('Direcoty created: ', str(rsl_output))
+			#print('Direcoty created: ', str(rsl_output).decode('gbk'))
+			#print('Direcoty created: ', str(rsl_output).decode('utf-8'))
+			print('Direcoty created: %s'% rsl_output)
 			return 0
 
 #====================
@@ -182,4 +189,7 @@ def main(argv):
 		print("Proceed with error, check logs.")
 		return -1
 
-if __name__ == '__main__' : main(sys.argv)
+if __name__ == '__main__' : 
+	reload(sys)
+	sys.setdefaultencoding("utf-8")  # python2 encoding utf-8 must do this.
+	main(sys.argv)
