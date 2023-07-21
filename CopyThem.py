@@ -28,11 +28,21 @@ def readEntries(filePath):
 	
 	return ls
 
-#input: Path, like /usr, /mnt/16orig/sdb1/usr/share/git-core
+#input: Path, like ('/usr/share/git-core', '/mnt/16orig/sdb1/usr/share')
 #output: Whether the dest folder has succees created
 def mkPath(sourcePath, destPath):
-	
-	return True
+	#ent1-ls = sourcePath.split('/')[1:]
+	#ent2-ls = destPath.split('/')[1:]
+	if os.path.exists(destPath):
+		return True
+	else:
+		try:
+			os.makedirs(destPath)
+		except Exception , err:
+			print('mkPath Error:', str(Exception), str(err))
+			raise
+		print(destPath + ' 目录不存在，创建目录成功')
+		return True
 # input: list of Entry, one by one, to replace the wrong files.
 # output:  Running result.
 #====================
@@ -45,13 +55,15 @@ def placeThem(ls, notTest):
 		
 		#debug:
 		#print('falsh get path_l:', path_l)
-		path_l = path_l[1:-1]  # remove '' element of path_l's first.		
+		path_l = path_l[1:-1]  # remove '' element of path_l's first. and see line 52.
 		path_l.insert(0, dest_path)  # add /mnt/16orig/sdb1 to first location of dest.
 		#debug:
 		#print('changed path_l:', path_l)
 		#path_l = path_l[:-1]  # filter end dir due to /a/b/c/ -> cp -> /a/b/ || /a/b/c.txt -> /a/b/
 		
 		ent2 = '/'.join(path_l)  # no need to add first '/'.
+		
+		ret = mkPath(ent1, ent2)  # to keep 1 and 2 same.(mk dirs)
 
 		command = partialCommand + str(ent1) + ' ' + str(ent2)
 		
@@ -62,9 +74,9 @@ def placeThem(ls, notTest):
 			
 			copy_result = tryTwiceCopy(command, str(ent2))
 			if copy_result == 0:
-				print('replaceThem ok.')			 
+				print('PlaceThem ok.')			 
 			else:
-				print('replaceThem error, return %s'% copy_result)
+				print('PlaceThem error, return %s'% copy_result)
 				
 	return 0
 
@@ -77,35 +89,10 @@ def tryTwiceCopy(command, dest):
 		(cp_status, cp_output) = cpFile(command)
 	except Exception, err:
 		print('Try copy once error: ' + str(Exception) + str(err))
-		return -1
+	
 	if cp_status != 0:
-		print('Cp error: %s'% cp_output)
+		return -1
 		
-		# ~~Try mkdir:~~
-		
-		mkdir = -2	
-		try:
-			mkdir = createDirectory(cp_output, dest)
-		except Exception, err:
-			print('Create dirctory error: ' + str(Exception) + str(err))
-			
-		if mkdir == -1:
-			return -1
-		elif mkdir == 0:
-			try:
-				(cp_status2, cp_output2) = cpFile(command)
-			except Exception, err:
-				print('Try copy twice error: ' + str(Exception) + str(err))
-				return -1
-			if cp_status2 != 0:
-				print('Cp twice error: %s'% cp_output2)
-			else:
-				print('File created by mkdir: %s'% cp_output2)
-				return 0
-
-		else:  # mkdir == -2
-			print('In mkdir of tryTwiceCopy error, check log.')
-			return -1 
 	else:
 		print('File created: %s'% cp_output)
 		return 0
@@ -116,13 +103,13 @@ def tryTwiceCopy(command, dest):
 def cpFile(command):
 	(result_status, result_output) = commands.getstatusoutput(command)
 	if result_status != 0:
-		print('In cpFile, cp error: %s'% result_output)
+		print('In cpFile, cp error: %s' % result_output)
 		return (-1, str(result_output))	
 	else:
-		print('File created by cpFile: %s'% result_output)
+		print('File created by cpFile: %s' % result_output)
 		return (0, "")
 
-#====================
+#==================== not use!==========
 def createDirectory(cp_output, ent2):
 	if True and ent2:
 		(rsl_status, rsl_output) = commands.getstatusoutput('mkdir -pv ' + str(ent2))
