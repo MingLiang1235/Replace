@@ -26,6 +26,23 @@ def readEntries(filePath):
 	
 	return ls
 
+#input: Path, like ('/usr/share/git-core', '/mnt/16orig/sdb1/usr/share')
+#output: Whether the dest folder has succees created
+#====================
+def mkPath(sourcePath, destPath):
+	#ent1-ls = sourcePath.split('/')[1:]
+	#ent2-ls = destPath.split('/')[1:]
+	if os.path.exists(destPath):
+		return True
+	else:
+		try:
+			os.makedirs(destPath)
+		except Exception , err:
+			print('mkPath Error:', str(Exception), str(err))
+			raise
+		print(destPath + ' 目录不存在，创建目录成功')
+		return True
+
 # input: list of Entry, one by one, to replace the wrong files.
 # output:  Running result.
 #====================
@@ -33,7 +50,6 @@ def replaceThem(ls, notTest):
 	partialCommand = 'cp -r --preserve -P '  # -y maybe? -p --preserve origin path -P not follow symbolink.
 	for ent in ls:
 		ent1 = ent.strip()
-		end_ls = ent1
 		path_l = ent.strip().split('/')
 		
 		#debug:
@@ -44,6 +60,8 @@ def replaceThem(ls, notTest):
 		path_l = path_l[:-1]  # filter end dir due to /a/b/c/ -> cp -> /a/b/ || /a/b/c.txt -> /a/b/
 		
 		ent2 = '/' + '/'.join(path_l)  # add first '/'.
+		
+		ret = mkPath(ent1, ent2)  # mkdirs of missing dir.
 
 		command = partialCommand + str(ent1) + ' ' + str(ent2)
 		
@@ -71,33 +89,8 @@ def tryTwiceCopy(command, dest):
 		print('Try copy once error: ' + str(Exception) + str(err))
 		return -1
 	if cp_status != 0:
-		print('Cp error: ', str(cp_output))
-		
-		# ~~Try mkdir:~~
-		
-		mkdir = -2	
-		try:
-			mkdir = createDirectory(cp_output, dest)
-		except Exception, err:
-			print('Create dirctory error: ' + str(Exception) + str(err))
-			
-		if mkdir == -1:
-			return -1
-		elif mkdir == 0:
-			try:
-				(cp_status2, cp_output2) = cpFile(command)
-			except Exception, err:
-				print('Try copy twice error: ' + str(Exception) + str(err))
-				return -1
-			if cp_status2 != 0:
-				print('Cp twice error: ', str(cp_output2))
-			else:
-				print('File created by mkdir: ', str(cp_output2))
-				return 0
+		return -1
 
-		else:  # mkdir == -2
-			print('In mkdir of tryTwiceCopy error, check log.')
-			return -1 
 	else:
 		print('File created: ', cp_output)
 		return 0
@@ -114,15 +107,15 @@ def cpFile(command):
 		print('File created by cpFile: ', result_output)
 		return (0, "")
 
-#====================
+#==================== not use! ===========
 def createDirectory(cp_output, ent2):
 	if True and ent2:
 		(rsl_status, rsl_output) = commands.getstatusoutput('mkdir -pv ' + str(ent2))
 		if rsl_status != 0:
-			print('Mkdir error: ', str(rsl_output))
+			print('Mkdir error: %s' % rsl_output)
 			return -1
 		else:
-			print('Direcoty created: ', str(rsl_output))
+			print('Direcoty created: %s' % rsl_output)
 			return 0
 
 #====================
