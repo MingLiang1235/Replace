@@ -35,7 +35,7 @@ def addHead(ls, notTest, outfile='./git.new-input.txt'):
 	fwrite = codecs.open(outfile, 'w')
 	for each in ls:  # each with '\n'.
 		#each = each.strip()  # Not correct! to strip '\n' ,file.write(line) is not right.
-		line = head + each.strip() + '/\n'  # fixbug(3)
+		line = head + each.strip() + '\n'
 		#debug
 		print(line)
 		if notTest:
