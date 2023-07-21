@@ -21,7 +21,7 @@ f)  CopyThem.py -t git-find-without-dot.txt (To Copy gitFiles to /mnt/16orig/sdb
 a)Replacer.py -t sqlite.txt  (cp -r --preserve /mnt/16orig/sdb2/..../ /..../)
 /mnt/16orig/sdb2/.....   --->   /..../....
 
-b)Replacer.py -t git.txt  (cp -r --preserve /mnt/16orig/sdb1/..../ /..../)
+b)Replacer.py -t git.new-input.txt  (cp -r --preserve /mnt/16orig/sdb1/..../ /..../)
 /mnt/16orig/sdb1/.....   --->   /..../....
 
 3)You can get the statements to create origin datafile from backup/history-yyyy-mm-dd.log

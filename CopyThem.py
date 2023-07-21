@@ -28,6 +28,11 @@ def readEntries(filePath):
 	
 	return ls
 
+#input: Path, like /usr, /mnt/16orig/sdb1/usr/share/git-core
+#output: Whether the dest folder has succees created
+def mkPath(sourcePath, destPath):
+	
+	return True
 # input: list of Entry, one by one, to replace the wrong files.
 # output:  Running result.
 #====================
