@@ -1,0 +1,11 @@
+/mnt/16orig/sdb2/usr/share/doc/libaio1
+/mnt/16orig/sdb2/usr/share/lintian/overrides/libaio1
+/mnt/16orig/sdb2/var/cache/apt/archives/libaio1_0.3.110-1_armhf.deb
+/mnt/16orig/sdb2/var/lib/dpkg/info/libaio1:armhf.postinst
+/mnt/16orig/sdb2/var/lib/dpkg/info/libaio1:armhf.shlibs
+/mnt/16orig/sdb2/var/lib/dpkg/info/libaio1:armhf.symbols
+/mnt/16orig/sdb2/var/lib/dpkg/info/libaio1:armhf.list
+/mnt/16orig/sdb2/var/lib/dpkg/info/libaio1:armhf.md5sums
+/mnt/16orig/sdb2/var/lib/dpkg/info/libaio1:armhf.postrm
+/mnt/16orig/sdb2/lib/arm-linux-gnueabihf/libaio.so.1.0.1
+/mnt/16orig/sdb2/lib/arm-linux-gnueabihf/libaio.so.1

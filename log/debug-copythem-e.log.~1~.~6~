@@ -1,0 +1,3873 @@
+Len(argv)=3; argv[0]=CopyThem.py
+./test.txt
+['CopyThem.py', '--exec', 'test.txt']
+Entities: 955
+cp -r --preserve -P /var/lib/dpkg/info/git.list /mnt/16orig/sdb1/var/lib/dpkg/info
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /var/lib/dpkg/info/git.postrm /mnt/16orig/sdb1/var/lib/dpkg/info
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /var/lib/dpkg/info/git.conffiles /mnt/16orig/sdb1/var/lib/dpkg/info
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /var/lib/dpkg/info/git.postinst /mnt/16orig/sdb1/var/lib/dpkg/info
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /var/lib/dpkg/info/git-man.md5sums /mnt/16orig/sdb1/var/lib/dpkg/info
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /var/lib/dpkg/info/git.md5sums /mnt/16orig/sdb1/var/lib/dpkg/info
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /var/lib/dpkg/info/git.prerm /mnt/16orig/sdb1/var/lib/dpkg/info
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /var/lib/dpkg/info/git-man.list /mnt/16orig/sdb1/var/lib/dpkg/info
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /var/lib/dpkg/info/git.preinst /mnt/16orig/sdb1/var/lib/dpkg/info
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /var/lib/git /mnt/16orig/sdb1/var/lib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/bin/git-upload-archive /mnt/16orig/sdb1/usr/bin
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/bin/git-receive-pack /mnt/16orig/sdb1/usr/bin
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/bin/git-shell /mnt/16orig/sdb1/usr/bin
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/bin/git-upload-pack /mnt/16orig/sdb1/usr/bin
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/bin/git /mnt/16orig/sdb1/usr/bin
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/git-core /mnt/16orig/sdb1/usr/share
+In cpFile, cp error: cp: 无法以目录'/usr/share/git-core/contrib/hooks' 来覆盖非目录'/mnt/16orig/sdb1/usr/share/git-core/contrib/hooks'
+('Cp error: ', "cp: \xe6\x97\xa0\xe6\xb3\x95\xe4\xbb\xa5\xe7\x9b\xae\xe5\xbd\x95'/usr/share/git-core/contrib/hooks' \xe6\x9d\xa5\xe8\xa6\x86\xe7\x9b\x96\xe9\x9d\x9e\xe7\x9b\xae\xe5\xbd\x95'/mnt/16orig/sdb1/usr/share/git-core/contrib/hooks'")
+Direcoty created: 
+In cpFile, cp error: cp: 无法以目录'/usr/share/git-core/contrib/hooks' 来覆盖非目录'/mnt/16orig/sdb1/usr/share/git-core/contrib/hooks'
+('Cp twice error: ', "cp: \xe6\x97\xa0\xe6\xb3\x95\xe4\xbb\xa5\xe7\x9b\xae\xe5\xbd\x95'/usr/share/git-core/contrib/hooks' \xe6\x9d\xa5\xe8\xa6\x86\xe7\x9b\x96\xe9\x9d\x9e\xe7\x9b\xae\xe5\xbd\x95'/mnt/16orig/sdb1/usr/share/git-core/contrib/hooks'")
+replaceThem error, return None
+cp -r --preserve -P /usr/share/git-core/contrib /mnt/16orig/sdb1/usr/share/git-core
+In cpFile, cp error: cp: 无法以目录'/usr/share/git-core/contrib/hooks' 来覆盖非目录'/mnt/16orig/sdb1/usr/share/git-core/contrib/hooks'
+('Cp error: ', "cp: \xe6\x97\xa0\xe6\xb3\x95\xe4\xbb\xa5\xe7\x9b\xae\xe5\xbd\x95'/usr/share/git-core/contrib/hooks' \xe6\x9d\xa5\xe8\xa6\x86\xe7\x9b\x96\xe9\x9d\x9e\xe7\x9b\xae\xe5\xbd\x95'/mnt/16orig/sdb1/usr/share/git-core/contrib/hooks'")
+Direcoty created: 
+In cpFile, cp error: cp: 无法以目录'/usr/share/git-core/contrib/hooks' 来覆盖非目录'/mnt/16orig/sdb1/usr/share/git-core/contrib/hooks'
+('Cp twice error: ', "cp: \xe6\x97\xa0\xe6\xb3\x95\xe4\xbb\xa5\xe7\x9b\xae\xe5\xbd\x95'/usr/share/git-core/contrib/hooks' \xe6\x9d\xa5\xe8\xa6\x86\xe7\x9b\x96\xe9\x9d\x9e\xe7\x9b\xae\xe5\xbd\x95'/mnt/16orig/sdb1/usr/share/git-core/contrib/hooks'")
+replaceThem error, return None
+cp -r --preserve -P /usr/share/git-core/contrib/hooks /mnt/16orig/sdb1/usr/share/git-core/contrib
+In cpFile, cp error: cp: 无法以目录'/usr/share/git-core/contrib/hooks' 来覆盖非目录'/mnt/16orig/sdb1/usr/share/git-core/contrib/hooks'
+('Cp error: ', "cp: \xe6\x97\xa0\xe6\xb3\x95\xe4\xbb\xa5\xe7\x9b\xae\xe5\xbd\x95'/usr/share/git-core/contrib/hooks' \xe6\x9d\xa5\xe8\xa6\x86\xe7\x9b\x96\xe9\x9d\x9e\xe7\x9b\xae\xe5\xbd\x95'/mnt/16orig/sdb1/usr/share/git-core/contrib/hooks'")
+Direcoty created: 
+In cpFile, cp error: cp: 无法以目录'/usr/share/git-core/contrib/hooks' 来覆盖非目录'/mnt/16orig/sdb1/usr/share/git-core/contrib/hooks'
+('Cp twice error: ', "cp: \xe6\x97\xa0\xe6\xb3\x95\xe4\xbb\xa5\xe7\x9b\xae\xe5\xbd\x95'/usr/share/git-core/contrib/hooks' \xe6\x9d\xa5\xe8\xa6\x86\xe7\x9b\x96\xe9\x9d\x9e\xe7\x9b\xae\xe5\xbd\x95'/mnt/16orig/sdb1/usr/share/git-core/contrib/hooks'")
+replaceThem error, return None
+cp -r --preserve -P /usr/share/git-core/contrib/hooks/update-paranoid /mnt/16orig/sdb1/usr/share/git-core/contrib/hooks
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/git-core/contrib/hooks/setgitperms.perl /mnt/16orig/sdb1/usr/share/git-core/contrib/hooks
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/git-core/contrib/hooks/pre-auto-gc-battery /mnt/16orig/sdb1/usr/share/git-core/contrib/hooks
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/git-core/contrib/hooks/post-receive-email /mnt/16orig/sdb1/usr/share/git-core/contrib/hooks
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/git-core/templates /mnt/16orig/sdb1/usr/share/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/git-core/templates/branches /mnt/16orig/sdb1/usr/share/git-core/templates
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/git-core/templates/description /mnt/16orig/sdb1/usr/share/git-core/templates
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/git-core/templates/info /mnt/16orig/sdb1/usr/share/git-core/templates
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/git-core/templates/info/exclude /mnt/16orig/sdb1/usr/share/git-core/templates/info
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/git-core/templates/hooks /mnt/16orig/sdb1/usr/share/git-core/templates
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/git-core/templates/hooks/pre-push.sample /mnt/16orig/sdb1/usr/share/git-core/templates/hooks
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/git-core/templates/hooks/pre-rebase.sample /mnt/16orig/sdb1/usr/share/git-core/templates/hooks
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/git-core/templates/hooks/applypatch-msg.sample /mnt/16orig/sdb1/usr/share/git-core/templates/hooks
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/git-core/templates/hooks/prepare-commit-msg.sample /mnt/16orig/sdb1/usr/share/git-core/templates/hooks
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/git-core/templates/hooks/fsmonitor-watchman.sample /mnt/16orig/sdb1/usr/share/git-core/templates/hooks
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/git-core/templates/hooks/pre-commit.sample /mnt/16orig/sdb1/usr/share/git-core/templates/hooks
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/git-core/templates/hooks/commit-msg.sample /mnt/16orig/sdb1/usr/share/git-core/templates/hooks
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/git-core/templates/hooks/pre-applypatch.sample /mnt/16orig/sdb1/usr/share/git-core/templates/hooks
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/git-core/templates/hooks/pre-receive.sample /mnt/16orig/sdb1/usr/share/git-core/templates/hooks
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/git-core/templates/hooks/update.sample /mnt/16orig/sdb1/usr/share/git-core/templates/hooks
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/git-core/templates/hooks/post-update.sample /mnt/16orig/sdb1/usr/share/git-core/templates/hooks
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/lintian/overrides/git /mnt/16orig/sdb1/usr/share/lintian/overrides
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man5/gitmodules.5.gz /mnt/16orig/sdb1/usr/share/man/man5
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man5/githooks.5.gz /mnt/16orig/sdb1/usr/share/man/man5
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man5/gitignore.5.gz /mnt/16orig/sdb1/usr/share/man/man5
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man5/gitattributes.5.gz /mnt/16orig/sdb1/usr/share/man/man5
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man5/gitweb.conf.5.gz /mnt/16orig/sdb1/usr/share/man/man5
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man5/gitrepository-layout.5.gz /mnt/16orig/sdb1/usr/share/man/man5
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-annotate.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-clone.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-prune.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-name-rev.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-sh-i18n.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-request-pull.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-cat-file.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-ls-files.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-daemon.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-subtree.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-mktag.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-check-ref-format.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-credential.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-fetch-pack.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-remote-testgit.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-init-db.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-am.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-fast-export.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-whatchanged.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-fast-import.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-web--browse.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-merge-one-file.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-push.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-pack-redundant.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-ls-remote.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-rev-parse.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-config.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-for-each-ref.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-merge-file.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-quiltimport.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-apply.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-var.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-commit-graph.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-diff-index.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-fsck-objects.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-receive-pack.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-instaweb.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-symbolic-ref.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-diff-files.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-revert.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-diff.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-format-patch.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-pack-objects.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-write-tree.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-worktree.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-count-objects.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-unpack-file.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-update-ref.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-submodule.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-rev-list.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-archive.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-check-mailmap.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-mergetool--lib.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-http-fetch.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-index-pack.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-credential-cache--daemon.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-rm.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-bundle.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-bisect.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-update-server-info.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-merge.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-tag.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-verify-tag.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-rebase.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-rerere.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-blame.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-credential-cache.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-cherry.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-stripspace.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-commit.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-shortlog.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-show-ref.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-stage.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-replace.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-multi-pack-index.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-fmt-merge-msg.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-log.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-get-tar-commit-id.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-init.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-prune-packed.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-shell.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-checkout-index.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-diff-tree.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-cherry-pick.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-send-pack.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/gitremote-helpers.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-remote.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-verify-commit.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-show.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-sh-setup.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-show-branch.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-column.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-branch.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-stash.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-help.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-remote-ext.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-commit-tree.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-verify-pack.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-grep.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-upload-archive.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-describe.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-http-push.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-reflog.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-difftool.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/gitweb.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-mailsplit.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-status.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-ls-tree.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-hash-object.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-filter-branch.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-pack-refs.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-gc.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-update-index.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-merge-base.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-credential-store.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-mergetool.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-show-index.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-read-tree.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-interpret-trailers.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-mv.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-check-ignore.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-upload-pack.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-http-backend.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-fetch.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-remote-fd.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-merge-index.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-notes.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-repack.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-range-diff.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-pull.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-sh-i18n--envsubst.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-reset.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-mktree.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-imap-send.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-parse-remote.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-clean.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-patch-id.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-mailinfo.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-merge-tree.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-checkout.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-unpack-objects.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-add.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-check-attr.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man1/git-fsck.1.gz /mnt/16orig/sdb1/usr/share/man/man1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man7/gitcli.7.gz /mnt/16orig/sdb1/usr/share/man/man7
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man7/gittutorial-2.7.gz /mnt/16orig/sdb1/usr/share/man/man7
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man7/gittutorial.7.gz /mnt/16orig/sdb1/usr/share/man/man7
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man7/gitglossary.7.gz /mnt/16orig/sdb1/usr/share/man/man7
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man7/gitnamespaces.7.gz /mnt/16orig/sdb1/usr/share/man/man7
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man7/giteveryday.7.gz /mnt/16orig/sdb1/usr/share/man/man7
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man7/gitcredentials.7.gz /mnt/16orig/sdb1/usr/share/man/man7
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man7/gitsubmodules.7.gz /mnt/16orig/sdb1/usr/share/man/man7
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man7/gitcore-tutorial.7.gz /mnt/16orig/sdb1/usr/share/man/man7
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man7/gitdiffcore.7.gz /mnt/16orig/sdb1/usr/share/man/man7
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man7/gitworkflows.7.gz /mnt/16orig/sdb1/usr/share/man/man7
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man7/gitrevisions.7.gz /mnt/16orig/sdb1/usr/share/man/man7
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/man/man7/gitcvs-migration.7.gz /mnt/16orig/sdb1/usr/share/man/man7
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/locale/es/LC_MESSAGES/git.mo /mnt/16orig/sdb1/usr/share/locale/es/LC_MESSAGES
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/locale/sv/LC_MESSAGES/git.mo /mnt/16orig/sdb1/usr/share/locale/sv/LC_MESSAGES
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/locale/ko/LC_MESSAGES/git.mo /mnt/16orig/sdb1/usr/share/locale/ko/LC_MESSAGES
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/locale/ru/LC_MESSAGES/git.mo /mnt/16orig/sdb1/usr/share/locale/ru/LC_MESSAGES
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/locale/vi/LC_MESSAGES/git.mo /mnt/16orig/sdb1/usr/share/locale/vi/LC_MESSAGES
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/locale/fr/LC_MESSAGES/git.mo /mnt/16orig/sdb1/usr/share/locale/fr/LC_MESSAGES
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/locale/zh_CN/LC_MESSAGES/git.mo /mnt/16orig/sdb1/usr/share/locale/zh_CN/LC_MESSAGES
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/locale/bg/LC_MESSAGES/git.mo /mnt/16orig/sdb1/usr/share/locale/bg/LC_MESSAGES
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/locale/pt_PT/LC_MESSAGES/git.mo /mnt/16orig/sdb1/usr/share/locale/pt_PT/LC_MESSAGES
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/locale/it/LC_MESSAGES/git.mo /mnt/16orig/sdb1/usr/share/locale/it/LC_MESSAGES
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/locale/is/LC_MESSAGES/git.mo /mnt/16orig/sdb1/usr/share/locale/is/LC_MESSAGES
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/locale/ca/LC_MESSAGES/git.mo /mnt/16orig/sdb1/usr/share/locale/ca/LC_MESSAGES
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/locale/de/LC_MESSAGES/git.mo /mnt/16orig/sdb1/usr/share/locale/de/LC_MESSAGES
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/vim/vim81/indent/gitolite.vim /mnt/16orig/sdb1/usr/share/vim/vim81/indent
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/vim/vim81/indent/gitconfig.vim /mnt/16orig/sdb1/usr/share/vim/vim81/indent
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/vim/vim81/autoload/netrw_gitignore.vim /mnt/16orig/sdb1/usr/share/vim/vim81/autoload
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/vim/vim81/syntax/gitolite.vim /mnt/16orig/sdb1/usr/share/vim/vim81/syntax
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/vim/vim81/syntax/gitcommit.vim /mnt/16orig/sdb1/usr/share/vim/vim81/syntax
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/vim/vim81/syntax/git.vim /mnt/16orig/sdb1/usr/share/vim/vim81/syntax
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/vim/vim81/syntax/gitsendemail.vim /mnt/16orig/sdb1/usr/share/vim/vim81/syntax
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/vim/vim81/syntax/gitconfig.vim /mnt/16orig/sdb1/usr/share/vim/vim81/syntax
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/vim/vim81/syntax/gitrebase.vim /mnt/16orig/sdb1/usr/share/vim/vim81/syntax
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/vim/vim81/ftplugin/gitcommit.vim /mnt/16orig/sdb1/usr/share/vim/vim81/ftplugin
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/vim/vim81/ftplugin/git.vim /mnt/16orig/sdb1/usr/share/vim/vim81/ftplugin
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/vim/vim81/ftplugin/gitsendemail.vim /mnt/16orig/sdb1/usr/share/vim/vim81/ftplugin
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/vim/vim81/ftplugin/gitconfig.vim /mnt/16orig/sdb1/usr/share/vim/vim81/ftplugin
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/vim/vim81/ftplugin/gitrebase.vim /mnt/16orig/sdb1/usr/share/vim/vim81/ftplugin
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/bash-completion/completions/gitk /mnt/16orig/sdb1/usr/share/bash-completion/completions
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/bash-completion/completions/git /mnt/16orig/sdb1/usr/share/bash-completion/completions
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/gitweb /mnt/16orig/sdb1/usr/share
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/gitweb/index.cgi /mnt/16orig/sdb1/usr/share/gitweb
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/gitweb/static /mnt/16orig/sdb1/usr/share/gitweb
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/gitweb/static/gitweb.js /mnt/16orig/sdb1/usr/share/gitweb/static
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/gitweb/static/git-favicon.png /mnt/16orig/sdb1/usr/share/gitweb/static
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/gitweb/static/git-logo.png /mnt/16orig/sdb1/usr/share/gitweb/static
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/gitweb/static/gitweb.css /mnt/16orig/sdb1/usr/share/gitweb/static
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/gitweb/gitweb.cgi /mnt/16orig/sdb1/usr/share/gitweb
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git-man /mnt/16orig/sdb1/usr/share/doc
+In cpFile, cp error: cp: 无法以目录'/usr/share/doc/git-man' 来覆盖非目录'/mnt/16orig/sdb1/usr/share/doc/git-man'
+('Cp error: ', "cp: \xe6\x97\xa0\xe6\xb3\x95\xe4\xbb\xa5\xe7\x9b\xae\xe5\xbd\x95'/usr/share/doc/git-man' \xe6\x9d\xa5\xe8\xa6\x86\xe7\x9b\x96\xe9\x9d\x9e\xe7\x9b\xae\xe5\xbd\x95'/mnt/16orig/sdb1/usr/share/doc/git-man'")
+Direcoty created: 
+In cpFile, cp error: cp: 无法以目录'/usr/share/doc/git-man' 来覆盖非目录'/mnt/16orig/sdb1/usr/share/doc/git-man'
+('Cp twice error: ', "cp: \xe6\x97\xa0\xe6\xb3\x95\xe4\xbb\xa5\xe7\x9b\xae\xe5\xbd\x95'/usr/share/doc/git-man' \xe6\x9d\xa5\xe8\xa6\x86\xe7\x9b\x96\xe9\x9d\x9e\xe7\x9b\xae\xe5\xbd\x95'/mnt/16orig/sdb1/usr/share/doc/git-man'")
+replaceThem error, return None
+cp -r --preserve -P /usr/share/doc/git-man/changelog.Debian.gz /mnt/16orig/sdb1/usr/share/doc/git-man
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git-man/changelog.gz /mnt/16orig/sdb1/usr/share/doc/git-man
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git-man/copyright /mnt/16orig/sdb1/usr/share/doc/git-man
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/rsync/scripts/git-set-file-times /mnt/16orig/sdb1/usr/share/doc/rsync/scripts
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/xorg/reference/git-usage.html /mnt/16orig/sdb1/usr/share/doc/xorg/reference
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/xorg/reference/git-usage.txt.gz /mnt/16orig/sdb1/usr/share/doc/xorg/reference
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git /mnt/16orig/sdb1/usr/share/doc
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/README.md /mnt/16orig/sdb1/usr/share/doc/git
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/README.emacs /mnt/16orig/sdb1/usr/share/doc/git
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/changelog.Debian.gz /mnt/16orig/sdb1/usr/share/doc/git
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/changelog.gz /mnt/16orig/sdb1/usr/share/doc/git
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/README.source /mnt/16orig/sdb1/usr/share/doc/git
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/NEWS.Debian.gz /mnt/16orig/sdb1/usr/share/doc/git
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib /mnt/16orig/sdb1/usr/share/doc/git
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/remotes2config.sh /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/buildsystems /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/buildsystems/Generators.pm /mnt/16orig/sdb1/usr/share/doc/git/contrib/buildsystems
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/buildsystems/parse.pl /mnt/16orig/sdb1/usr/share/doc/git/contrib/buildsystems
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/buildsystems/Generators /mnt/16orig/sdb1/usr/share/doc/git/contrib/buildsystems
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/buildsystems/Generators/QMake.pm /mnt/16orig/sdb1/usr/share/doc/git/contrib/buildsystems/Generators
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/buildsystems/Generators/Vcproj.pm /mnt/16orig/sdb1/usr/share/doc/git/contrib/buildsystems/Generators
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/buildsystems/engine.pl /mnt/16orig/sdb1/usr/share/doc/git/contrib/buildsystems
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/buildsystems/generate /mnt/16orig/sdb1/usr/share/doc/git/contrib/buildsystems
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/rerere-train.sh /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/persistent-https /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/persistent-https/main.go /mnt/16orig/sdb1/usr/share/doc/git/contrib/persistent-https
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/persistent-https/socket.go /mnt/16orig/sdb1/usr/share/doc/git/contrib/persistent-https
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/persistent-https/LICENSE /mnt/16orig/sdb1/usr/share/doc/git/contrib/persistent-https
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/persistent-https/client.go /mnt/16orig/sdb1/usr/share/doc/git/contrib/persistent-https
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/persistent-https/README /mnt/16orig/sdb1/usr/share/doc/git/contrib/persistent-https
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/persistent-https/Makefile /mnt/16orig/sdb1/usr/share/doc/git/contrib/persistent-https
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/persistent-https/proxy.go /mnt/16orig/sdb1/usr/share/doc/git/contrib/persistent-https
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/vscode /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/vscode/README.md /mnt/16orig/sdb1/usr/share/doc/git/contrib/vscode
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/vscode/init.sh /mnt/16orig/sdb1/usr/share/doc/git/contrib/vscode
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/git-resurrect.sh /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/coccinelle /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/coccinelle/strbuf.cocci /mnt/16orig/sdb1/usr/share/doc/git/contrib/coccinelle
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/coccinelle/preincr.cocci /mnt/16orig/sdb1/usr/share/doc/git/contrib/coccinelle
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/coccinelle/commit.cocci /mnt/16orig/sdb1/usr/share/doc/git/contrib/coccinelle
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/coccinelle/qsort.cocci /mnt/16orig/sdb1/usr/share/doc/git/contrib/coccinelle
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/coccinelle/array.cocci /mnt/16orig/sdb1/usr/share/doc/git/contrib/coccinelle
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/coccinelle/free.cocci /mnt/16orig/sdb1/usr/share/doc/git/contrib/coccinelle
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/coccinelle/README /mnt/16orig/sdb1/usr/share/doc/git/contrib/coccinelle
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/coccinelle/xstrdup_or_null.cocci /mnt/16orig/sdb1/usr/share/doc/git/contrib/coccinelle
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/coccinelle/object_id.cocci /mnt/16orig/sdb1/usr/share/doc/git/contrib/coccinelle
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/coccinelle/swap.cocci /mnt/16orig/sdb1/usr/share/doc/git/contrib/coccinelle
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/examples /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/examples/README /mnt/16orig/sdb1/usr/share/doc/git/contrib/examples
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/subtree /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/subtree/t /mnt/16orig/sdb1/usr/share/doc/git/contrib/subtree
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/subtree/t/t7900-subtree.sh /mnt/16orig/sdb1/usr/share/doc/git/contrib/subtree/t
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/subtree/t/Makefile /mnt/16orig/sdb1/usr/share/doc/git/contrib/subtree/t
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/subtree/INSTALL /mnt/16orig/sdb1/usr/share/doc/git/contrib/subtree
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/subtree/todo /mnt/16orig/sdb1/usr/share/doc/git/contrib/subtree
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/subtree/git-subtree.txt /mnt/16orig/sdb1/usr/share/doc/git/contrib/subtree
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/subtree/COPYING /mnt/16orig/sdb1/usr/share/doc/git/contrib/subtree
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/subtree/README /mnt/16orig/sdb1/usr/share/doc/git/contrib/subtree
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/subtree/Makefile /mnt/16orig/sdb1/usr/share/doc/git/contrib/subtree
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/subtree/git-subtree /mnt/16orig/sdb1/usr/share/doc/git/contrib/subtree
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/subtree/git-subtree.sh /mnt/16orig/sdb1/usr/share/doc/git/contrib/subtree
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/long-running-filter /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/long-running-filter/example.pl /mnt/16orig/sdb1/usr/share/doc/git/contrib/long-running-filter
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/remote-helpers /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/remote-helpers/git-remote-bzr /mnt/16orig/sdb1/usr/share/doc/git/contrib/remote-helpers
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/remote-helpers/git-remote-hg /mnt/16orig/sdb1/usr/share/doc/git/contrib/remote-helpers
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/remote-helpers/README /mnt/16orig/sdb1/usr/share/doc/git/contrib/remote-helpers
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/svn-fe /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/svn-fe/svnrdump_sim.py /mnt/16orig/sdb1/usr/share/doc/git/contrib/svn-fe
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/svn-fe/svn-fe.txt /mnt/16orig/sdb1/usr/share/doc/git/contrib/svn-fe
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/svn-fe/svn-fe.c /mnt/16orig/sdb1/usr/share/doc/git/contrib/svn-fe
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/svn-fe/Makefile /mnt/16orig/sdb1/usr/share/doc/git/contrib/svn-fe
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/git-shell-commands /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/git-shell-commands/help /mnt/16orig/sdb1/usr/share/doc/git/contrib/git-shell-commands
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/git-shell-commands/list /mnt/16orig/sdb1/usr/share/doc/git/contrib/git-shell-commands
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/git-shell-commands/README /mnt/16orig/sdb1/usr/share/doc/git/contrib/git-shell-commands
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/README /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/workdir /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/workdir/git-new-workdir /mnt/16orig/sdb1/usr/share/doc/git/contrib/workdir
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/credential /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/credential/netrc /mnt/16orig/sdb1/usr/share/doc/git/contrib/credential
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/credential/netrc/t-git-credential-netrc.sh /mnt/16orig/sdb1/usr/share/doc/git/contrib/credential/netrc
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/credential/netrc/test.git-config-gpg /mnt/16orig/sdb1/usr/share/doc/git/contrib/credential/netrc
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/credential/netrc/test.netrc /mnt/16orig/sdb1/usr/share/doc/git/contrib/credential/netrc
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/credential/netrc/test.pl /mnt/16orig/sdb1/usr/share/doc/git/contrib/credential/netrc
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/credential/netrc/git-credential-netrc /mnt/16orig/sdb1/usr/share/doc/git/contrib/credential/netrc
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/credential/netrc/test.command-option-gpg /mnt/16orig/sdb1/usr/share/doc/git/contrib/credential/netrc
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/credential/netrc/Makefile /mnt/16orig/sdb1/usr/share/doc/git/contrib/credential/netrc
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/credential/gnome-keyring /mnt/16orig/sdb1/usr/share/doc/git/contrib/credential
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring.c /mnt/16orig/sdb1/usr/share/doc/git/contrib/credential/gnome-keyring
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/credential/gnome-keyring/Makefile /mnt/16orig/sdb1/usr/share/doc/git/contrib/credential/gnome-keyring
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/credential/osxkeychain /mnt/16orig/sdb1/usr/share/doc/git/contrib/credential
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/credential/osxkeychain/git-credential-osxkeychain.c /mnt/16orig/sdb1/usr/share/doc/git/contrib/credential/osxkeychain
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/credential/osxkeychain/Makefile /mnt/16orig/sdb1/usr/share/doc/git/contrib/credential/osxkeychain
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/credential/wincred /mnt/16orig/sdb1/usr/share/doc/git/contrib/credential
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/credential/wincred/git-credential-wincred.c /mnt/16orig/sdb1/usr/share/doc/git/contrib/credential/wincred
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/credential/wincred/Makefile /mnt/16orig/sdb1/usr/share/doc/git/contrib/credential/wincred
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/credential/libsecret /mnt/16orig/sdb1/usr/share/doc/git/contrib/credential
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret.c /mnt/16orig/sdb1/usr/share/doc/git/contrib/credential/libsecret
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/credential/libsecret/Makefile /mnt/16orig/sdb1/usr/share/doc/git/contrib/credential/libsecret
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/stats /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/stats/packinfo.pl /mnt/16orig/sdb1/usr/share/doc/git/contrib/stats
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/stats/mailmap.pl /mnt/16orig/sdb1/usr/share/doc/git/contrib/stats
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/stats/git-common-hash /mnt/16orig/sdb1/usr/share/doc/git/contrib/stats
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/fast-import /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/fast-import/git-p4.README /mnt/16orig/sdb1/usr/share/doc/git/contrib/fast-import
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/fast-import/import-zips.py /mnt/16orig/sdb1/usr/share/doc/git/contrib/fast-import
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/fast-import/git-import.perl /mnt/16orig/sdb1/usr/share/doc/git/contrib/fast-import
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/fast-import/import-tars.perl /mnt/16orig/sdb1/usr/share/doc/git/contrib/fast-import
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/fast-import/import-directories.perl /mnt/16orig/sdb1/usr/share/doc/git/contrib/fast-import
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/fast-import/git-import.sh /mnt/16orig/sdb1/usr/share/doc/git/contrib/fast-import
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/git-jump /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/git-jump/README /mnt/16orig/sdb1/usr/share/doc/git/contrib/git-jump
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/git-jump/git-jump /mnt/16orig/sdb1/usr/share/doc/git/contrib/git-jump
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/contacts /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/contacts/git-contacts /mnt/16orig/sdb1/usr/share/doc/git/contrib/contacts
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/contacts/Makefile /mnt/16orig/sdb1/usr/share/doc/git/contrib/contacts
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/contacts/git-contacts.txt /mnt/16orig/sdb1/usr/share/doc/git/contrib/contacts
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/diff-highlight /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/diff-highlight/t /mnt/16orig/sdb1/usr/share/doc/git/contrib/diff-highlight
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/diff-highlight/t/Makefile /mnt/16orig/sdb1/usr/share/doc/git/contrib/diff-highlight/t
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/diff-highlight/t/t9400-diff-highlight.sh /mnt/16orig/sdb1/usr/share/doc/git/contrib/diff-highlight/t
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/diff-highlight/diff-highlight.perl /mnt/16orig/sdb1/usr/share/doc/git/contrib/diff-highlight
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/diff-highlight/DiffHighlight.pm /mnt/16orig/sdb1/usr/share/doc/git/contrib/diff-highlight
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/diff-highlight/README /mnt/16orig/sdb1/usr/share/doc/git/contrib/diff-highlight
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/diff-highlight/Makefile /mnt/16orig/sdb1/usr/share/doc/git/contrib/diff-highlight
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/thunderbird-patch-inline /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/thunderbird-patch-inline/appp.sh /mnt/16orig/sdb1/usr/share/doc/git/contrib/thunderbird-patch-inline
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/thunderbird-patch-inline/README /mnt/16orig/sdb1/usr/share/doc/git/contrib/thunderbird-patch-inline
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/update-unicode /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/update-unicode/update_unicode.sh /mnt/16orig/sdb1/usr/share/doc/git/contrib/update-unicode
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/update-unicode/README /mnt/16orig/sdb1/usr/share/doc/git/contrib/update-unicode
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/hg-to-git /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/hg-to-git/hg-to-git.txt /mnt/16orig/sdb1/usr/share/doc/git/contrib/hg-to-git
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/hg-to-git/hg-to-git.py /mnt/16orig/sdb1/usr/share/doc/git/contrib/hg-to-git
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/contrib/coverage-diff.sh /mnt/16orig/sdb1/usr/share/doc/git/contrib
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/copyright /mnt/16orig/sdb1/usr/share/doc/git
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes /mnt/16orig/sdb1/usr/share/doc/git
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.10.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.16.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.11.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.2.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.4.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.6.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.5.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.9.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.2.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.7.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.3.7.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.7.7.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.15.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.19.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.1.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.10.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.4.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.18.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.6.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.1.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.4.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.16.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.0.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.4.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.4.9.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.8.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.11.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.2.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.16.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.9.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.9.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.17.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.9.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.1.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.3.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.4.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.6.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.2.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.19.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.4.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.2.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.3.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.14.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.5.9.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.8.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.12.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.17.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.12.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.16.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.9.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.5.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.1.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.4.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.8.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.12.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.5.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.8.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.6.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.9.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.5.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.3.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.19.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.3.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.13.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.1.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.6.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.0.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.8.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.15.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.5.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.5.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.5.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.10.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.4.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.7.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.5.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.20.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.4.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.10.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.14.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.10.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.0.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.3.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.5.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.6.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.3.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.3.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.1.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.4.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.5.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.4.8.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.1.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.8.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.5.8.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.18.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.6.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.7.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.4.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.0.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.3.9.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.6.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.8.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.2.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.20.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.5.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.4.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.7.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.6.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.12.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.3.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.20.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.14.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.5.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.0.9.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.8.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.9.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.17.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.4.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.9.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.4.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.5.7.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.17.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.4.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.6.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.0.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.2.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.9.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.6.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.15.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.5.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.2.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.5.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.11.7.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.3.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.2.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.9.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.8.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.0.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.3.7.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.5.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.3.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.4.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.0.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.11.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.7.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.8.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.9.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.9.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.7.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.7.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.3.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.3.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.6.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.0.8.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.9.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.4.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.10.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.11.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.1.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.1.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.18.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.3.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.7.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.0.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.1.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.4.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.0.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.2.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.18.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.1.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.5.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.4.10.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.11.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.7.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.8.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.13.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.5.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.5.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.16.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.1.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.14.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.11.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.0.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.2.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.2.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.4.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.3.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.1.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.11.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.2.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.10.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.7.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.5.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.8.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.0.7.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.6.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.6.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.1.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.4.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.4.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.16.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.0.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.4.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.3.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.12.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.9.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.6.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.0.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.2.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.15.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.11.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.3.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.9.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.0.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.10.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.6.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.12.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.0.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.5.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.0.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.5.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.17.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.19.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.3.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.0.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.0.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.13.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.12.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.12.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.0.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.4.12.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.2.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.4.7.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.18.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.5.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.3.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.20.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.3.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.0.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.10.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.3.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.5.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.3.8.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.2.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.11.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.11.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.15.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.4.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.5.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.14.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.11.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.0.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.6.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.7.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.2.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.4.11.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.0.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.3.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.13.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.5.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.0.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.10.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.7.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.1.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.1.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.9.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.12.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.2.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.12.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.14.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.2.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.13.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.6.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.2.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.0.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.6.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.0.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.19.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.1.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.16.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.4.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.3.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.3.8.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.4.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.1.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.4.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.12.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.2.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.14.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.9.7.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.6.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.3.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.1.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.2.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.1.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.9.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.8.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.5.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.1.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.0.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.3.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.7.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.1.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.1.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.3.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.9.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.13.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.6.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.3.10.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.4.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.0.7.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.1.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.13.7.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.5.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.6.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.7.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.6.3.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.6.7.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.20.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.4.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.9.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.11.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.7.10.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.19.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.17.5.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.4.7.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.0.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.13.4.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.8.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/2.10.3.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.0.1.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.0.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.5.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.5.5.2.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/RelNotes/1.8.1.6.txt /mnt/16orig/sdb1/usr/share/doc/git/RelNotes
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/share/doc/git/README.Debian /mnt/16orig/sdb1/usr/share/doc/git
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core /mnt/16orig/sdb1/usr/lib
+In cpFile, cp error: cp: 无法以目录'/usr/lib/git-core' 来覆盖非目录'/mnt/16orig/sdb1/usr/lib/git-core'
+('Cp error: ', "cp: \xe6\x97\xa0\xe6\xb3\x95\xe4\xbb\xa5\xe7\x9b\xae\xe5\xbd\x95'/usr/lib/git-core' \xe6\x9d\xa5\xe8\xa6\x86\xe7\x9b\x96\xe9\x9d\x9e\xe7\x9b\xae\xe5\xbd\x95'/mnt/16orig/sdb1/usr/lib/git-core'")
+Direcoty created: 
+In cpFile, cp error: cp: 无法以目录'/usr/lib/git-core' 来覆盖非目录'/mnt/16orig/sdb1/usr/lib/git-core'
+('Cp twice error: ', "cp: \xe6\x97\xa0\xe6\xb3\x95\xe4\xbb\xa5\xe7\x9b\xae\xe5\xbd\x95'/usr/lib/git-core' \xe6\x9d\xa5\xe8\xa6\x86\xe7\x9b\x96\xe9\x9d\x9e\xe7\x9b\xae\xe5\xbd\x95'/mnt/16orig/sdb1/usr/lib/git-core'")
+replaceThem error, return None
+cp -r --preserve -P /usr/lib/git-core/git-upload-archive /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-add /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-remote-testsvn /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-replace /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-reset /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-show-index /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-ls-files /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-fsck /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-credential-cache /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-clean /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-verify-commit /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-remote-https /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-whatchanged /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-count-objects /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-config /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/mergetools /mnt/16orig/sdb1/usr/lib/git-core
+In cpFile, cp error: cp: 无法以目录'/usr/lib/git-core/mergetools' 来覆盖非目录'/mnt/16orig/sdb1/usr/lib/git-core'
+('Cp error: ', "cp: \xe6\x97\xa0\xe6\xb3\x95\xe4\xbb\xa5\xe7\x9b\xae\xe5\xbd\x95'/usr/lib/git-core/mergetools' \xe6\x9d\xa5\xe8\xa6\x86\xe7\x9b\x96\xe9\x9d\x9e\xe7\x9b\xae\xe5\xbd\x95'/mnt/16orig/sdb1/usr/lib/git-core'")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 文件已存在
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/emerge /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/tortoisemerge /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/gvimdiff /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/guiffy /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/opendiff /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/araxis /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/vimdiff3 /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/xxdiff /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/kdiff3 /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/examdiff /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/deltawalker /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/kompare /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/vimdiff2 /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/ecmerge /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/gvimdiff3 /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/bc /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/winmerge /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/codecompare /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/meld /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/gvimdiff2 /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/p4merge /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/bc3 /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/vimdiff /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/diffmerge /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/tkdiff /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/mergetools/diffuse /mnt/16orig/sdb1/usr/lib/git-core/mergetools
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/git-core/mergetools' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/git-core”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/git-core/git-stage /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-init-db /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-update-index /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-check-ref-format /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-hash-object /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-instaweb /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-rebase--am /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-fast-export /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-merge-recursive /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-interpret-trailers /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-reflog /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-check-mailmap /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-submodule--helper /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-rebase--interactive /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-remote-ftp /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-gc /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-help /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-update-ref /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-grep /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-pack-redundant /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-push /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-unpack-file /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-shortlog /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-init /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-receive-pack /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-http-fetch /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-bisect /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-http-push /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-rev-parse /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-show /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-sh-prompt /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-mktag /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-ls-tree /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-diff-files /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-patch-id /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-credential-store /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-pack-objects /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-mv /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-commit-tree /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-name-rev /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-rm /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-prune-packed /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-add--interactive /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-merge /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-sh-i18n--envsubst /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-rebase--preserve-merges /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-rebase /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-format-patch /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-for-each-ref /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-merge-base /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-difftool--helper /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-prune /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-annotate /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-read-tree /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-filter-branch /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-unpack-objects /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-bisect--helper /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-check-attr /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-remote /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-merge-subtree /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-merge-ours /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-cherry-pick /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-fetch-pack /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-stash /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-archive /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-show-branch /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-remote-fd /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-rev-list /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-difftool /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-sh-i18n /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-remote-ftps /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-update-server-info /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-diff-index /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-status /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-fsck-objects /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-var /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-merge-tree /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-apply /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-range-diff /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-cherry /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-rebase--common /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-show-ref /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-web--browse /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-merge-octopus /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-http-backend /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-verify-tag /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-diff /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-legacy-rebase /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-fast-import /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-diff-tree /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-ls-remote /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-merge-resolve /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-imap-send /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-commit /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-merge-file /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-worktree /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-describe /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-serve /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-checkout /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-request-pull /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-revert /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-mergetool /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-fetch /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-blame /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-parse-remote /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-daemon /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-check-ignore /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-merge-index /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-remote-ext /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-stripspace /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-commit-graph /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-pull /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-tag /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-sh-setup /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-mailsplit /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-column /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-shell /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-mktree /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-bundle /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-rebase--merge /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-submodule /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-get-tar-commit-id /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-upload-pack /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-credential-cache--daemon /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-remote-http /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-quiltimport /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-write-tree /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-branch /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-fmt-merge-msg /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-rerere /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-am /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-subtree /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-merge-one-file /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-clone /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-mergetool--lib /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-log /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-index-pack /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-verify-pack /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-checkout-index /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-notes /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-cat-file /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-pack-refs /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-repack /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-mailinfo /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-multi-pack-index /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-credential /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-symbolic-ref /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/git-core/git-send-pack /mnt/16orig/sdb1/usr/lib/git-core
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/arm-linux-gnueabihf/perl-base/unicore/To/Digit.pl /mnt/16orig/sdb1/usr/lib/arm-linux-gnueabihf/perl-base/unicore/To
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/arm-linux-gnueabihf/perl-base/Config_git.pl /mnt/16orig/sdb1/usr/lib/arm-linux-gnueabihf/perl-base
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/arm-linux-gnueabihf/libgphoto2/2.5.22/digita.so /mnt/16orig/sdb1/usr/lib/arm-linux-gnueabihf/libgphoto2/2.5.22
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/arm-linux-gnueabihf/perl/5.28.1/CORE/git_version.h /mnt/16orig/sdb1/usr/lib/arm-linux-gnueabihf/perl/5.28.1/CORE
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/arm-linux-gnueabihf/perl/5.28.1/Config_git.pl /mnt/16orig/sdb1/usr/lib/arm-linux-gnueabihf/perl/5.28.1
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/python2.7/cgitb.pyc /mnt/16orig/sdb1/usr/lib/python2.7
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/python2.7/cgitb.py /mnt/16orig/sdb1/usr/lib/python2.7
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/python2.7/dist-packages/pip/_internal/vcs/git.pyc /mnt/16orig/sdb1/usr/lib/python2.7/dist-packages/pip/_internal/vcs
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/python2.7/dist-packages/pip/_internal/vcs' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/python2.7/dist-packages/pip/_internal/vcs' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/python2.7”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/python2.7/dist-packages/pip/_internal/vcs/git.py /mnt/16orig/sdb1/usr/lib/python2.7/dist-packages/pip/_internal/vcs
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/python2.7/dist-packages/pip/_internal/vcs' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/python2.7/dist-packages/pip/_internal/vcs' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/python2.7”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/python2.7/dist-packages/pbr/git.pyc /mnt/16orig/sdb1/usr/lib/python2.7/dist-packages/pbr
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/python2.7/dist-packages/pbr' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/python2.7/dist-packages/pbr' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/python2.7”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/python2.7/dist-packages/pbr/git.py /mnt/16orig/sdb1/usr/lib/python2.7/dist-packages/pbr
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/python2.7/dist-packages/pbr' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/python2.7/dist-packages/pbr' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/python2.7”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/pypy/lib-python/2.7/cgitb.py /mnt/16orig/sdb1/usr/lib/pypy/lib-python/2.7
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/pypy/lib-python/2.7/__pycache__/cgitb.pypy-41.pyc /mnt/16orig/sdb1/usr/lib/pypy/lib-python/2.7/__pycache__
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/python3/dist-packages/pip/_internal/vcs/git.py /mnt/16orig/sdb1/usr/lib/python3/dist-packages/pip/_internal/vcs
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/python3/dist-packages/pip/_internal/vcs/__pycache__/git.cpython-37.pyc /mnt/16orig/sdb1/usr/lib/python3/dist-packages/pip/_internal/vcs/__pycache__
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/python3/dist-packages/mypy/git.py /mnt/16orig/sdb1/usr/lib/python3/dist-packages/mypy
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/python3/dist-packages/mypy/__pycache__/git.cpython-37.pyc /mnt/16orig/sdb1/usr/lib/python3/dist-packages/mypy/__pycache__
+In cpFile, cp error: cp: 访问'/mnt/16orig/sdb1/usr/lib/python3/dist-packages/mypy/__pycache__' 失败: 不是目录
+('Cp error: ', "cp: \xe8\xae\xbf\xe9\x97\xae'/mnt/16orig/sdb1/usr/lib/python3/dist-packages/mypy/__pycache__' \xe5\xa4\xb1\xe8\xb4\xa5: \xe4\xb8\x8d\xe6\x98\xaf\xe7\x9b\xae\xe5\xbd\x95")
+Mkdir error: mkdir: 无法创建目录 “/mnt/16orig/sdb1/usr/lib/python3/dist-packages/mypy”: 不是目录
+replaceThem error, return -1
+cp -r --preserve -P /usr/lib/python3/dist-packages/pylint/test/functional/disable_msg_github_issue_1389.rc /mnt/16orig/sdb1/usr/lib/python3/dist-packages/pylint/test/functional
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /usr/lib/python3/dist-packages/pylint/test/functional/disable_msg_github_issue_1389.py /mnt/16orig/sdb1/usr/lib/python3/dist-packages/pylint/test/functional
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /etc/bash_completion.d/git-prompt /mnt/16orig/sdb1/etc/bash_completion.d
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+cp -r --preserve -P /home/pi/work/dpkg/scripts/Dpkg/Source/Package/V3/git.pm /mnt/16orig/sdb1/home/pi/work/dpkg/scripts/Dpkg/Source/Package/V3
+File created by cpFile: 
+('File created: ', '')
+replaceThem ok.
+------------------------------
+Done.

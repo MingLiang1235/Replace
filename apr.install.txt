@@ -1,0 +1,203 @@
+Len(argv)=3; argv[0]=Replacer.py
+/home/cubie/work/replace/apr.txt
+['Replacer.py', '--exec', 'apr.txt']
+Entities: 28
+['/mnt/16orig/sdb2/usr/share/doc/libapr1\n', '/mnt/16orig/sdb2/usr/share/doc/libaprutil1\n', '/mnt/16orig/sdb2/usr/share/doc/libaprutil1-dbd-sqlite3\n', '/mnt/16orig/sdb2/usr/share/doc/libaprutil1-ldap\n', '/mnt/16orig/sdb2/usr/share/lintian/overrides/libapr1\n', '/mnt/16orig/sdb2/usr/share/lintian/overrides/libaprutil1\n', '/mnt/16orig/sdb2/usr/lib/arm-linux-gnueabihf/libaprutil-1.so.0\n', '/mnt/16orig/sdb2/usr/lib/arm-linux-gnueabihf/libapr-1.so.0.5.2\n', '/mnt/16orig/sdb2/usr/lib/arm-linux-gnueabihf/libaprutil-1.so.0.5.4\n', '/mnt/16orig/sdb2/usr/lib/arm-linux-gnueabihf/libapr-1.so.0\n', '/mnt/16orig/sdb2/var/cache/apt/archives/libaprutil1-ldap_1.5.4-3_armhf.deb\n', '/mnt/16orig/sdb2/var/cache/apt/archives/libapr1_1.5.2-5_armhf.deb\n', '/mnt/16orig/sdb2/var/cache/apt/archives/libaprutil1_1.5.4-3_armhf.deb\n', '/mnt/16orig/sdb2/var/cache/apt/archives/libaprutil1-dbd-sqlite3_1.5.4-3_armhf.deb\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1:armhf.list\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1:armhf.md5sums\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1-ldap:armhf.md5sums\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1:armhf.shlibs\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1:armhf.symbols\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libapr1:armhf.list\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1-ldap:armhf.list\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libapr1:armhf.shlibs\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libapr1:armhf.symbols\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1:armhf.triggers\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1-dbd-sqlite3:armhf.list\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libapr1:armhf.md5sums\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libapr1:armhf.triggers\n', '/mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1-dbd-sqlite3:armhf.md5sums\n']
+cp -r --preserve /mnt/16orig/sdb2/usr/share/doc/libapr1 /usr/share/doc
+('In cpFile, cp error: ', "cp: cannot create directory `/usr/share/doc/libapr1': Permission denied")
+('Cp error: ', "cp: cannot create directory `/usr/share/doc/libapr1': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create directory `/usr/share/doc/libapr1': Permission denied")
+('Cp twice error: ', "cp: cannot create directory `/usr/share/doc/libapr1': Permission denied")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/usr/share/doc/libaprutil1 /usr/share/doc
+('In cpFile, cp error: ', "cp: cannot create regular file `/usr/share/doc/libaprutil1/copyright': Permission denied\ncp: cannot create regular file `/usr/share/doc/libaprutil1/changelog.Debian.gz': Permission denied\ncp: cannot create regular file `/usr/share/doc/libaprutil1/changelog.gz': Permission denied\ncp: preserving times for `/usr/share/doc/libaprutil1': Operation not permitted")
+('Cp error: ', "cp: cannot create regular file `/usr/share/doc/libaprutil1/copyright': Permission denied\ncp: cannot create regular file `/usr/share/doc/libaprutil1/changelog.Debian.gz': Permission denied\ncp: cannot create regular file `/usr/share/doc/libaprutil1/changelog.gz': Permission denied\ncp: preserving times for `/usr/share/doc/libaprutil1': Operation not permitted")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/usr/share/doc/libaprutil1/copyright': Permission denied\ncp: cannot create regular file `/usr/share/doc/libaprutil1/changelog.Debian.gz': Permission denied\ncp: cannot create regular file `/usr/share/doc/libaprutil1/changelog.gz': Permission denied\ncp: preserving times for `/usr/share/doc/libaprutil1': Operation not permitted")
+('Cp twice error: ', "cp: cannot create regular file `/usr/share/doc/libaprutil1/copyright': Permission denied\ncp: cannot create regular file `/usr/share/doc/libaprutil1/changelog.Debian.gz': Permission denied\ncp: cannot create regular file `/usr/share/doc/libaprutil1/changelog.gz': Permission denied\ncp: preserving times for `/usr/share/doc/libaprutil1': Operation not permitted")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/usr/share/doc/libaprutil1-dbd-sqlite3 /usr/share/doc
+('In cpFile, cp error: ', "cp: cannot create regular file `/usr/share/doc/libaprutil1-dbd-sqlite3/copyright': Permission denied\ncp: cannot create regular file `/usr/share/doc/libaprutil1-dbd-sqlite3/changelog.Debian.gz': Permission denied\ncp: cannot create regular file `/usr/share/doc/libaprutil1-dbd-sqlite3/changelog.gz': Permission denied\ncp: preserving times for `/usr/share/doc/libaprutil1-dbd-sqlite3': Operation not permitted")
+('Cp error: ', "cp: cannot create regular file `/usr/share/doc/libaprutil1-dbd-sqlite3/copyright': Permission denied\ncp: cannot create regular file `/usr/share/doc/libaprutil1-dbd-sqlite3/changelog.Debian.gz': Permission denied\ncp: cannot create regular file `/usr/share/doc/libaprutil1-dbd-sqlite3/changelog.gz': Permission denied\ncp: preserving times for `/usr/share/doc/libaprutil1-dbd-sqlite3': Operation not permitted")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/usr/share/doc/libaprutil1-dbd-sqlite3/copyright': Permission denied\ncp: cannot create regular file `/usr/share/doc/libaprutil1-dbd-sqlite3/changelog.Debian.gz': Permission denied\ncp: cannot create regular file `/usr/share/doc/libaprutil1-dbd-sqlite3/changelog.gz': Permission denied\ncp: preserving times for `/usr/share/doc/libaprutil1-dbd-sqlite3': Operation not permitted")
+('Cp twice error: ', "cp: cannot create regular file `/usr/share/doc/libaprutil1-dbd-sqlite3/copyright': Permission denied\ncp: cannot create regular file `/usr/share/doc/libaprutil1-dbd-sqlite3/changelog.Debian.gz': Permission denied\ncp: cannot create regular file `/usr/share/doc/libaprutil1-dbd-sqlite3/changelog.gz': Permission denied\ncp: preserving times for `/usr/share/doc/libaprutil1-dbd-sqlite3': Operation not permitted")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/usr/share/doc/libaprutil1-ldap /usr/share/doc
+('In cpFile, cp error: ', "cp: cannot create regular file `/usr/share/doc/libaprutil1-ldap/copyright': Permission denied\ncp: cannot create regular file `/usr/share/doc/libaprutil1-ldap/changelog.Debian.gz': Permission denied\ncp: cannot create regular file `/usr/share/doc/libaprutil1-ldap/changelog.gz': Permission denied\ncp: preserving times for `/usr/share/doc/libaprutil1-ldap': Operation not permitted")
+('Cp error: ', "cp: cannot create regular file `/usr/share/doc/libaprutil1-ldap/copyright': Permission denied\ncp: cannot create regular file `/usr/share/doc/libaprutil1-ldap/changelog.Debian.gz': Permission denied\ncp: cannot create regular file `/usr/share/doc/libaprutil1-ldap/changelog.gz': Permission denied\ncp: preserving times for `/usr/share/doc/libaprutil1-ldap': Operation not permitted")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/usr/share/doc/libaprutil1-ldap/copyright': Permission denied\ncp: cannot create regular file `/usr/share/doc/libaprutil1-ldap/changelog.Debian.gz': Permission denied\ncp: cannot create regular file `/usr/share/doc/libaprutil1-ldap/changelog.gz': Permission denied\ncp: preserving times for `/usr/share/doc/libaprutil1-ldap': Operation not permitted")
+('Cp twice error: ', "cp: cannot create regular file `/usr/share/doc/libaprutil1-ldap/copyright': Permission denied\ncp: cannot create regular file `/usr/share/doc/libaprutil1-ldap/changelog.Debian.gz': Permission denied\ncp: cannot create regular file `/usr/share/doc/libaprutil1-ldap/changelog.gz': Permission denied\ncp: preserving times for `/usr/share/doc/libaprutil1-ldap': Operation not permitted")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/usr/share/lintian/overrides/libapr1 /usr/share/lintian/overrides
+('In cpFile, cp error: ', "cp: cannot create regular file `/usr/share/lintian/overrides/libapr1': Permission denied")
+('Cp error: ', "cp: cannot create regular file `/usr/share/lintian/overrides/libapr1': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/usr/share/lintian/overrides/libapr1': Permission denied")
+('Cp twice error: ', "cp: cannot create regular file `/usr/share/lintian/overrides/libapr1': Permission denied")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/usr/share/lintian/overrides/libaprutil1 /usr/share/lintian/overrides
+('In cpFile, cp error: ', "cp: cannot create regular file `/usr/share/lintian/overrides/libaprutil1': Permission denied")
+('Cp error: ', "cp: cannot create regular file `/usr/share/lintian/overrides/libaprutil1': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/usr/share/lintian/overrides/libaprutil1': Permission denied")
+('Cp twice error: ', "cp: cannot create regular file `/usr/share/lintian/overrides/libaprutil1': Permission denied")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/usr/lib/arm-linux-gnueabihf/libaprutil-1.so.0 /usr/lib/arm-linux-gnueabihf
+('In cpFile, cp error: ', "cp: cannot remove `/usr/lib/arm-linux-gnueabihf/libaprutil-1.so.0': Permission denied")
+('Cp error: ', "cp: cannot remove `/usr/lib/arm-linux-gnueabihf/libaprutil-1.so.0': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot remove `/usr/lib/arm-linux-gnueabihf/libaprutil-1.so.0': Permission denied")
+('Cp twice error: ', "cp: cannot remove `/usr/lib/arm-linux-gnueabihf/libaprutil-1.so.0': Permission denied")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/usr/lib/arm-linux-gnueabihf/libapr-1.so.0.5.2 /usr/lib/arm-linux-gnueabihf
+('In cpFile, cp error: ', "cp: cannot create regular file `/usr/lib/arm-linux-gnueabihf/libapr-1.so.0.5.2': Permission denied")
+('Cp error: ', "cp: cannot create regular file `/usr/lib/arm-linux-gnueabihf/libapr-1.so.0.5.2': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/usr/lib/arm-linux-gnueabihf/libapr-1.so.0.5.2': Permission denied")
+('Cp twice error: ', "cp: cannot create regular file `/usr/lib/arm-linux-gnueabihf/libapr-1.so.0.5.2': Permission denied")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/usr/lib/arm-linux-gnueabihf/libaprutil-1.so.0.5.4 /usr/lib/arm-linux-gnueabihf
+('In cpFile, cp error: ', "cp: cannot create regular file `/usr/lib/arm-linux-gnueabihf/libaprutil-1.so.0.5.4': Permission denied")
+('Cp error: ', "cp: cannot create regular file `/usr/lib/arm-linux-gnueabihf/libaprutil-1.so.0.5.4': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/usr/lib/arm-linux-gnueabihf/libaprutil-1.so.0.5.4': Permission denied")
+('Cp twice error: ', "cp: cannot create regular file `/usr/lib/arm-linux-gnueabihf/libaprutil-1.so.0.5.4': Permission denied")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/usr/lib/arm-linux-gnueabihf/libapr-1.so.0 /usr/lib/arm-linux-gnueabihf
+('In cpFile, cp error: ', "cp: cannot create symbolic link `/usr/lib/arm-linux-gnueabihf/libapr-1.so.0': Permission denied")
+('Cp error: ', "cp: cannot create symbolic link `/usr/lib/arm-linux-gnueabihf/libapr-1.so.0': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create symbolic link `/usr/lib/arm-linux-gnueabihf/libapr-1.so.0': Permission denied")
+('Cp twice error: ', "cp: cannot create symbolic link `/usr/lib/arm-linux-gnueabihf/libapr-1.so.0': Permission denied")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/var/cache/apt/archives/libaprutil1-ldap_1.5.4-3_armhf.deb /var/cache/apt/archives
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/cache/apt/archives/libaprutil1-ldap_1.5.4-3_armhf.deb': Permission denied")
+('Cp error: ', "cp: cannot create regular file `/var/cache/apt/archives/libaprutil1-ldap_1.5.4-3_armhf.deb': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/cache/apt/archives/libaprutil1-ldap_1.5.4-3_armhf.deb': Permission denied")
+('Cp twice error: ', "cp: cannot create regular file `/var/cache/apt/archives/libaprutil1-ldap_1.5.4-3_armhf.deb': Permission denied")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/var/cache/apt/archives/libapr1_1.5.2-5_armhf.deb /var/cache/apt/archives
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/cache/apt/archives/libapr1_1.5.2-5_armhf.deb': Permission denied")
+('Cp error: ', "cp: cannot create regular file `/var/cache/apt/archives/libapr1_1.5.2-5_armhf.deb': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/cache/apt/archives/libapr1_1.5.2-5_armhf.deb': Permission denied")
+('Cp twice error: ', "cp: cannot create regular file `/var/cache/apt/archives/libapr1_1.5.2-5_armhf.deb': Permission denied")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/var/cache/apt/archives/libaprutil1_1.5.4-3_armhf.deb /var/cache/apt/archives
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/cache/apt/archives/libaprutil1_1.5.4-3_armhf.deb': Permission denied")
+('Cp error: ', "cp: cannot create regular file `/var/cache/apt/archives/libaprutil1_1.5.4-3_armhf.deb': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/cache/apt/archives/libaprutil1_1.5.4-3_armhf.deb': Permission denied")
+('Cp twice error: ', "cp: cannot create regular file `/var/cache/apt/archives/libaprutil1_1.5.4-3_armhf.deb': Permission denied")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/var/cache/apt/archives/libaprutil1-dbd-sqlite3_1.5.4-3_armhf.deb /var/cache/apt/archives
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/cache/apt/archives/libaprutil1-dbd-sqlite3_1.5.4-3_armhf.deb': Permission denied")
+('Cp error: ', "cp: cannot create regular file `/var/cache/apt/archives/libaprutil1-dbd-sqlite3_1.5.4-3_armhf.deb': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/cache/apt/archives/libaprutil1-dbd-sqlite3_1.5.4-3_armhf.deb': Permission denied")
+('Cp twice error: ', "cp: cannot create regular file `/var/cache/apt/archives/libaprutil1-dbd-sqlite3_1.5.4-3_armhf.deb': Permission denied")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1:armhf.list /var/lib/dpkg/info
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1:armhf.list': Permission denied")
+('Cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1:armhf.list': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1:armhf.list': Permission denied")
+('Cp twice error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1:armhf.list': Permission denied")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1:armhf.md5sums /var/lib/dpkg/info
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1:armhf.md5sums': Permission denied")
+('Cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1:armhf.md5sums': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1:armhf.md5sums': Permission denied")
+('Cp twice error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1:armhf.md5sums': Permission denied")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1-ldap:armhf.md5sums /var/lib/dpkg/info
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1-ldap:armhf.md5sums': Permission denied")
+('Cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1-ldap:armhf.md5sums': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1-ldap:armhf.md5sums': Permission denied")
+('Cp twice error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1-ldap:armhf.md5sums': Permission denied")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1:armhf.shlibs /var/lib/dpkg/info
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1:armhf.shlibs': Permission denied")
+('Cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1:armhf.shlibs': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1:armhf.shlibs': Permission denied")
+('Cp twice error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1:armhf.shlibs': Permission denied")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1:armhf.symbols /var/lib/dpkg/info
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1:armhf.symbols': Permission denied")
+('Cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1:armhf.symbols': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1:armhf.symbols': Permission denied")
+('Cp twice error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1:armhf.symbols': Permission denied")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libapr1:armhf.list /var/lib/dpkg/info
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libapr1:armhf.list': Permission denied")
+('Cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libapr1:armhf.list': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libapr1:armhf.list': Permission denied")
+('Cp twice error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libapr1:armhf.list': Permission denied")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1-ldap:armhf.list /var/lib/dpkg/info
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1-ldap:armhf.list': Permission denied")
+('Cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1-ldap:armhf.list': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1-ldap:armhf.list': Permission denied")
+('Cp twice error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1-ldap:armhf.list': Permission denied")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libapr1:armhf.shlibs /var/lib/dpkg/info
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libapr1:armhf.shlibs': Permission denied")
+('Cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libapr1:armhf.shlibs': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libapr1:armhf.shlibs': Permission denied")
+('Cp twice error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libapr1:armhf.shlibs': Permission denied")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libapr1:armhf.symbols /var/lib/dpkg/info
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libapr1:armhf.symbols': Permission denied")
+('Cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libapr1:armhf.symbols': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libapr1:armhf.symbols': Permission denied")
+('Cp twice error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libapr1:armhf.symbols': Permission denied")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1:armhf.triggers /var/lib/dpkg/info
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1:armhf.triggers': Permission denied")
+('Cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1:armhf.triggers': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1:armhf.triggers': Permission denied")
+('Cp twice error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1:armhf.triggers': Permission denied")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1-dbd-sqlite3:armhf.list /var/lib/dpkg/info
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1-dbd-sqlite3:armhf.list': Permission denied")
+('Cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1-dbd-sqlite3:armhf.list': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1-dbd-sqlite3:armhf.list': Permission denied")
+('Cp twice error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1-dbd-sqlite3:armhf.list': Permission denied")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libapr1:armhf.md5sums /var/lib/dpkg/info
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libapr1:armhf.md5sums': Permission denied")
+('Cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libapr1:armhf.md5sums': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libapr1:armhf.md5sums': Permission denied")
+('Cp twice error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libapr1:armhf.md5sums': Permission denied")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libapr1:armhf.triggers /var/lib/dpkg/info
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libapr1:armhf.triggers': Permission denied")
+('Cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libapr1:armhf.triggers': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libapr1:armhf.triggers': Permission denied")
+('Cp twice error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libapr1:armhf.triggers': Permission denied")
+tryTwice return None
+cp -r --preserve /mnt/16orig/sdb2/var/lib/dpkg/info/libaprutil1-dbd-sqlite3:armhf.md5sums /var/lib/dpkg/info
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1-dbd-sqlite3:armhf.md5sums': Permission denied")
+('Cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1-dbd-sqlite3:armhf.md5sums': Permission denied")
+('Direcoty created: ', '')
+('In cpFile, cp error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1-dbd-sqlite3:armhf.md5sums': Permission denied")
+('Cp twice error: ', "cp: cannot create regular file `/var/lib/dpkg/info/libaprutil1-dbd-sqlite3:armhf.md5sums': Permission denied")
+tryTwice return None
+------------------------------
+Done.

@@ -1,0 +1,44 @@
+#!/usr/bin/python2
+#====================
+# Python2  Author: James@
+#====================
+import sys
+import codecs
+import commands
+
+# input: filePath(string),data file: path+file
+# output: list of Entry , one by one. 
+def readEntries(filePath):
+	ls = []
+		
+	fopen = codecs.open(filePath, 'r')
+	#fopen = codecs.open(filePath, 'r', encoding='utf-32')
+	ls = fopen.readlines()
+	fopen.close()
+	#debug:
+	
+	print("Entities: " + str(len(ls)))
+	#print(ls)  # Do not list all of entities.
+	
+	return ls
+
+def main(argv):
+	if len(argv) == 1 :
+		print("Lack arguments. Not run. Notice: invoke file to line-count explicitly.")
+		return -1
+	elif len(argv) == 2 and (argv[1] == '--help' or argv[1] == '-h'):
+		print("\ncount.py file-to-count \n-h --help   get the help notice.\n")
+		return -1
+	elif len(argv) == 2:
+		try:
+			filePath = './' + argv[1]
+		except Exception, err:
+			print('Create file paht error:' + str(Exception) + str(err))
+
+	entities = []
+	try:
+		entities = readEntries(filePath)
+	except Exception, err:
+		print('Reading file error:' + str(Exception) + str(err))
+
+if __name__ == '__main__' : main (sys.argv)

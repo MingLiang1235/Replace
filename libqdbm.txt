@@ -1,0 +1,10 @@
+/mnt/16orig/sdb2/usr/share/doc/libqdbm14
+/mnt/16orig/sdb2/usr/lib/libqdbm.so.14.14.0
+/mnt/16orig/sdb2/usr/lib/libqdbm.so.14
+/mnt/16orig/sdb2/var/cache/apt/archives/libqdbm14_1.8.78-5+b1_armhf.deb
+/mnt/16orig/sdb2/var/lib/dpkg/info/libqdbm14.shlibs
+/mnt/16orig/sdb2/var/lib/dpkg/info/libqdbm14.postinst
+/mnt/16orig/sdb2/var/lib/dpkg/info/libqdbm14.postrm
+/mnt/16orig/sdb2/var/lib/dpkg/info/libqdbm14.symbols
+/mnt/16orig/sdb2/var/lib/dpkg/info/libqdbm14.list
+/mnt/16orig/sdb2/var/lib/dpkg/info/libqdbm14.md5sums
